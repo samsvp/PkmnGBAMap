@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "MEH"
+		},
+		{
+			"path": "GBAUtils"
+		}
+	],
+	"settings": {
+		"java.dependency.packagePresentation": "hierarchical"
+	}
+}
