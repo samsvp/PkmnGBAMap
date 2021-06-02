@@ -1,0 +1,10 @@
+Connections;
+Exits;SOOTOPOLIS CITY (0.7);SOOTOPOLIS CITY (0.7);SOOTOPOLIS CITY (15.14);
+1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 0 1 1 1 1 1 1 1 
+0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 

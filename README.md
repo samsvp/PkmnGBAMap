@@ -8,6 +8,7 @@ The following `TimeMeta` values have been discovered
 ```javascript
 {
     1: "blocked",
+    4: "water",
     12: "can pass",
     13: "blocked and interactable(?)" //seen on signs
 }

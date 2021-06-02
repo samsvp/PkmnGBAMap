@@ -5,6 +5,8 @@ import org.zzl.minegaming.GBAUtils.DataStore;
 import org.zzl.minegaming.GBAUtils.GBARom;
 import org.zzl.minegaming.GBAUtils.ROMManager;
 
+import us.plxhack.MEH.MapElements.SpriteExit;
+
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
@@ -171,11 +173,35 @@ public class BankLoader extends Thread implements Runnable
 			
 			ArrayList<ArrayList<String>> sMap = GetMapCol(map);
 			String connections = GetConnections(map);
-			SaveMap(sMap, connections, mtn.mapName);
+			String exits = GetExits(map);
+			SaveMap(sMap, connections, exits, mtn.mapName);
 		}
 		// Debug
 	}
 	
+
+	/**
+	 * Gets the exits for a given map
+	 * @param map
+	 * @return
+	 */
+	public String GetExits(Map map)
+	{
+		String exits = "Exits;";
+
+		for (SpriteExit n : map.mapExitManager.mapExits)
+		{
+			try {
+				MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(n.bBank, n.bMap);
+				exits += mtn.mapName + ";";
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+
+		return exits;
+	}
+
 	/**
 	 * Gets connections for the given map
 	 * @param map
@@ -183,7 +209,7 @@ public class BankLoader extends Thread implements Runnable
 	 */
 	public String GetConnections(Map map)
 	{
-		String connections = "";
+		String connections = "Connections;";
 
 		int dC = 0, uC = 0, lC = 0, rC = 0;
 		
@@ -223,7 +249,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "down " + mtn.mapName+"_"+mtn.bank+"_"+mtn.map + ";";
+					connections += "down:" + mtn.mapName + ";";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -236,7 +262,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "up " + mtn.mapName+"_"+mtn.bank+"_"+mtn.map + ";";
+					connections += "up:" + mtn.mapName + ";";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -249,7 +275,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "left " + mtn.mapName+"_"+mtn.bank+"_"+mtn.map + ";";
+					connections += "left:" + mtn.mapName + ";";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -262,7 +288,7 @@ public class BankLoader extends Thread implements Runnable
 
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "right " + mtn.mapName+"_"+mtn.bank+"_"+mtn.map + ";";
+					connections += "right:" + mtn.mapName + ";";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -315,13 +341,14 @@ public class BankLoader extends Thread implements Runnable
 	 * @param sMap
 	 * @param fileName
 	 */
-	private void SaveMap(ArrayList<ArrayList<String>> sMap, String connections, String fileName)
+	private void SaveMap(ArrayList<ArrayList<String>> sMap, String connections, String exits, String fileName)
 	{
 		PrintWriter out;
 		try {
 			out = new PrintWriter("collision_map/" + fileName + ".txt");
 			
 			out.println(connections);
+			out.println(exits);
 
 			for (ArrayList<String> row : sMap) {
 				for (String string : row) {

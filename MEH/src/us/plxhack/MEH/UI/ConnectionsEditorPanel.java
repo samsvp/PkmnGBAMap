@@ -280,15 +280,6 @@ public class ConnectionsEditorPanel extends JPanel
 			else if(c.lType == 0x3)
 			{
 				left[lC] = new Map(ROMManager.currentROM, c.bBank & 0xFF, c.bMap & 0xFF);
-				
-				System.out.println("loading left connection");
-				try {
-					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					System.out.println("left connection name = " + mtn.mapName);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-
 				leftImg[lC] = Map.renderMap(left[lC], false);
 				leftCon[lC] = c;
 				lC++;
@@ -299,9 +290,6 @@ public class ConnectionsEditorPanel extends JPanel
 			else if(c.lType == 0x4)
 			{
 				right[rC] = new Map(ROMManager.currentROM, c.bBank & 0xFF, c.bMap & 0xFF);
-
-				System.out.println("loading right connection");
-
 				rightImg[rC] = Map.renderMap(right[rC], false);
 				rightCon[rC] = c;
 				rC++;
