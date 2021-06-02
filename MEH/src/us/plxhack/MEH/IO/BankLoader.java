@@ -6,6 +6,9 @@ import org.zzl.minegaming.GBAUtils.GBARom;
 import org.zzl.minegaming.GBAUtils.ROMManager;
 
 import us.plxhack.MEH.MapElements.SpriteExit;
+import us.plxhack.MEH.MapElements.SpriteNPC;
+import us.plxhack.MEH.MapElements.SpriteSign;
+import us.plxhack.MEH.MapElements.Trigger;
 
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
@@ -173,12 +176,78 @@ public class BankLoader extends Thread implements Runnable
 			
 			ArrayList<ArrayList<String>> sMap = GetMapCol(map);
 			String connections = GetConnections(map);
-			String exits = GetExits(map);
-			SaveMap(sMap, connections, exits, mtn.mapName);
+			String events = GetEvents(map);
+			SaveMap(sMap, connections, events, mtn.mapName);
 		}
 		// Debug
 	}
 	
+
+	public String GetEvents(Map map) {
+		String events = "{\n";
+		
+		events += "\t" + GetExits(map) + ",\n";
+		events += "\t" + GetNPCs(map) + ",\n";
+		events += "\t" + GetSigns(map) + ",\n";
+		events += "\t" + GetTriggers(map) + ",\n";
+
+		return events + "\n}";
+	}
+
+
+	/**
+	 * Returns the NPCs from a given map
+	 * @param map
+	 * @return
+	 */
+	public String GetNPCs(Map map)
+	{
+		String NPCs = "{\n\t\tNPCs:[\n";
+
+		for (SpriteNPC npc : map.mapNPCManager.mapNPCs) {
+			NPCs += "\t\t\t{is_trainer:" + npc.bIsTrainer + ",b1:" + npc.bBehavior1 + 
+				",b2:" + npc.bBehavior2 + ",sprite:" + npc.bSpriteSet + "},\n";
+		}
+
+		NPCs += "\t\t]}";
+		return NPCs;
+	}
+
+	/**
+	 * Gets the signs for a given map
+	 * @param map
+	 * @return
+	 */
+	public String GetTriggers(Map map)
+	{
+		String triggers = "{\n\t\ttriggers:[\n";
+
+		for (Trigger trigger: map.mapTriggerManager.mapTriggers) {
+			triggers += "\t\t\t{x:" + trigger.bX + ",y:" + trigger.bY + 
+				",flag:" + trigger.hFlagCheck + ",scriptPointer:" + trigger.pScript + "},\n";
+		}
+
+		triggers += "\t\t]}";
+		return triggers;
+	}
+
+
+	/**
+	 * Gets the signs for a given map
+	 * @param map
+	 * @return
+	 */
+	public String GetSigns(Map map)
+	{
+		String signs = "{\n\t\tsigns:[\n";
+
+		for (SpriteSign sign: map.mapSignManager.mapSigns) {
+			signs += "\t\t\t{x:" + sign.bX + ",y:" + sign.bY + "},\n";
+		}
+
+		signs += "\t\t]}";
+		return signs;
+	}
 
 	/**
 	 * Gets the exits for a given map
@@ -187,18 +256,19 @@ public class BankLoader extends Thread implements Runnable
 	 */
 	public String GetExits(Map map)
 	{
-		String exits = "Exits;";
+		String exits = "{\n\t\texits:[";
 
 		for (SpriteExit n : map.mapExitManager.mapExits)
 		{
 			try {
 				MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(n.bBank, n.bMap);
-				exits += mtn.mapName + ";";
+				exits += mtn.mapName + ",";
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
 
+		exits +=  "\t\t]}";
 		return exits;
 	}
 
@@ -209,7 +279,7 @@ public class BankLoader extends Thread implements Runnable
 	 */
 	public String GetConnections(Map map)
 	{
-		String connections = "Connections;";
+		String connections = "[\n";
 
 		int dC = 0, uC = 0, lC = 0, rC = 0;
 		
@@ -225,8 +295,6 @@ public class BankLoader extends Thread implements Runnable
 				lC++;
 			else if(c.lType == 0x4)
 				rC++;
-
-			//TODO Diving maps!
 		}	
 		
 		Map[] up = new Map[uC];
@@ -249,7 +317,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "down:" + mtn.mapName + ";";
+					connections += "\t\t\t{down:" + mtn.mapName + "},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -262,7 +330,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "up:" + mtn.mapName + ";";
+					connections += "\t\t\t{up:" + mtn.mapName + "},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -275,7 +343,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "left:" + mtn.mapName + ";";
+					connections += "\t\t\t{left:" + mtn.mapName + "},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -288,7 +356,7 @@ public class BankLoader extends Thread implements Runnable
 
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "right:" + mtn.mapName + ";";
+					connections += "\t\t\t{right:" + mtn.mapName + "},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -297,6 +365,7 @@ public class BankLoader extends Thread implements Runnable
 			}
 		}	
 
+		connections += "\t\t]";
 		return connections;
 	}
 
@@ -341,21 +410,24 @@ public class BankLoader extends Thread implements Runnable
 	 * @param sMap
 	 * @param fileName
 	 */
-	private void SaveMap(ArrayList<ArrayList<String>> sMap, String connections, String exits, String fileName)
+	private void SaveMap(ArrayList<ArrayList<String>> sMap, String connections, String events, String fileName)
 	{
 		PrintWriter out;
 		try {
 			out = new PrintWriter("collision_map/" + fileName + ".txt");
 			
-			out.println(connections);
-			out.println(exits);
+			out.println("connections=" + connections + ",");
+			out.println("events=" + events + ",");
 
+			out.println("[");
 			for (ArrayList<String> row : sMap) {
+				out.print("\t[");
 				for (String string : row) {
-					out.print(string + " ");
+					out.print(string + ", ");
 				}
-				out.println("");
+				out.println("],");
 			}
+			out.println("]");
 			out.close();
 		} catch (Exception e) {
 			e.printStackTrace();

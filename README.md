@@ -14,8 +14,10 @@ The following `TimeMeta` values have been discovered
 }
 ```
 
-Map connections are gotten at the `GetConnections` methods at `BankLoader.java`.
+Map connections are gotten at the `GetConnections` method at `BankLoader.java`.
+Events information (NPCs, scripts, signs and warp points) is gotten at the `GetEvents` method at `BankLoader.java`.
 
 All map information is saved on individual files called `MapName (bank.map).txt` and are stored at `MEH/collision_map`.
+
 
 If you wish to compile this then good luck (this only works on Windows due to GBAUtils, btw).
