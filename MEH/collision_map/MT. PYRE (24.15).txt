@@ -1,23 +1,23 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 122 (0.37),MT. PYRE (24.21),ROUTE 122 (0.37),MT. PYRE (24.21),MT. PYRE (24.16),MT. PYRE (24.16),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:30},
-			{is_trainer:0,b1:7,b2:0,sprite:18},
-			{is_trainer:0,b1:9,b2:0,sprite:65},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'ROUTE 122 (0.37)','x':17,'y':18},{'name':'MT. PYRE (24.21)','x':3,'y':6},{'name':'ROUTE 122 (0.37)','x':18,'y':18},{'name':'MT. PYRE (24.21)','x':4,'y':6},{'name':'MT. PYRE (24.16)','x':11,'y':1},{'name':'MT. PYRE (24.16)','x':20,'y':9},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'30','x':21,'y':2},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'18','x':17,'y':8},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'65','x':13,'y':10},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 13, 13, 12, 12, 12, 12, 12, 12, 12, ],

@@ -1,52 +1,52 @@
 connections=[
 		],
 events={
-	{
-		exits:[MT. CHIMNEY (19.1),MT. CHIMNEY (19.1),JAGGED PASS (24.13),JAGGED PASS (24.13),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:9,b2:0,sprite:195},
-			{is_trainer:0,b1:10,b2:0,sprite:196},
-			{is_trainer:1,b1:9,b2:0,sprite:119},
-			{is_trainer:0,b1:9,b2:0,sprite:119},
-			{is_trainer:0,b1:10,b2:0,sprite:119},
-			{is_trainer:0,b1:10,b2:0,sprite:117},
-			{is_trainer:0,b1:10,b2:0,sprite:117},
-			{is_trainer:0,b1:9,b2:0,sprite:117},
-			{is_trainer:0,b1:10,b2:0,sprite:30},
-			{is_trainer:0,b1:9,b2:0,sprite:119},
-			{is_trainer:0,b1:74,b2:0,sprite:220},
-			{is_trainer:0,b1:64,b2:0,sprite:220},
-			{is_trainer:0,b1:8,b2:0,sprite:119},
-			{is_trainer:0,b1:65,b2:0,sprite:220},
-			{is_trainer:0,b1:67,b2:0,sprite:220},
-			{is_trainer:0,b1:7,b2:0,sprite:119},
-			{is_trainer:0,b1:10,b2:0,sprite:119},
-			{is_trainer:0,b1:66,b2:0,sprite:220},
-			{is_trainer:0,b1:67,b2:0,sprite:220},
-			{is_trainer:0,b1:67,b2:0,sprite:220},
-			{is_trainer:0,b1:66,b2:0,sprite:220},
-			{is_trainer:1,b1:10,b2:0,sprite:119},
-			{is_trainer:0,b1:67,b2:0,sprite:220},
-			{is_trainer:0,b1:66,b2:0,sprite:220},
-			{is_trainer:1,b1:13,b2:0,sprite:22},
-			{is_trainer:1,b1:70,b2:0,sprite:45},
-			{is_trainer:1,b1:17,b2:0,sprite:45},
-			{is_trainer:1,b1:16,b2:0,sprite:45},
-			{is_trainer:1,b1:9,b2:0,sprite:120},
-			{is_trainer:1,b1:10,b2:0,sprite:55},
-		]},
-	{
-		signs:[
-			{x:14,y:6},
-			{x:24,y:37},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MT. CHIMNEY (19.1)','x':17,'y':36},{'name':'MT. CHIMNEY (19.1)','x':18,'y':36},{'name':'JAGGED PASS (24.13)','x':20,'y':41},{'name':'JAGGED PASS (24.13)','x':21,'y':41},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'195','x':24,'y':19},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'196','x':13,'y':6},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'119','x':12,'y':11},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'119','x':32,'y':5},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'119','x':28,'y':12},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'117','x':19,'y':39},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'117','x':29,'y':5},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'117','x':31,'y':12},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'30','x':19,'y':39},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'119','x':22,'y':39},
+			{'is_trainer':0,'b1':74,'b2':0,'sprite':'220','x':23,'y':19},
+			{'is_trainer':0,'b1':64,'b2':0,'sprite':'220','x':23,'y':18},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'119','x':23,'y':17},
+			{'is_trainer':0,'b1':65,'b2':0,'sprite':'220','x':23,'y':20},
+			{'is_trainer':0,'b1':67,'b2':0,'sprite':'220','x':22,'y':19},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'119','x':23,'y':21},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'119','x':21,'y':19},
+			{'is_trainer':0,'b1':66,'b2':0,'sprite':'220','x':30,'y':12},
+			{'is_trainer':0,'b1':67,'b2':0,'sprite':'220','x':29,'y':12},
+			{'is_trainer':0,'b1':67,'b2':0,'sprite':'220','x':30,'y':5},
+			{'is_trainer':0,'b1':66,'b2':0,'sprite':'220','x':31,'y':5},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'119','x':9,'y':16},
+			{'is_trainer':0,'b1':67,'b2':0,'sprite':'220','x':20,'y':39},
+			{'is_trainer':0,'b1':66,'b2':0,'sprite':'220','x':21,'y':39},
+			{'is_trainer':1,'b1':13,'b2':0,'sprite':'22','x':16,'y':18},
+			{'is_trainer':1,'b1':70,'b2':0,'sprite':'45','x':14,'y':7},
+			{'is_trainer':1,'b1':17,'b2':0,'sprite':'45','x':29,'y':7},
+			{'is_trainer':1,'b1':16,'b2':0,'sprite':'45','x':27,'y':17},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'120','x':13,'y':16},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'55','x':7,'y':7},
+		],
+	
+		'signs':[
+			{'x':14,'y':6},
+			{'x':24,'y':37},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 12, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

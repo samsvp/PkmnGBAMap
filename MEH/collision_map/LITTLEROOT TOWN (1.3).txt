@@ -1,40 +1,40 @@
 connections=[
 		],
 events={
-	{
-		exits:[LITTLEROOT TOWN (1.2),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:105},
-			{is_trainer:0,b1:1,b2:0,sprite:240},
-			{is_trainer:0,b1:1,b2:0,sprite:241},
-			{is_trainer:0,b1:1,b2:0,sprite:242},
-			{is_trainer:0,b1:1,b2:0,sprite:243},
-			{is_trainer:0,b1:1,b2:0,sprite:244},
-			{is_trainer:0,b1:1,b2:0,sprite:245},
-			{is_trainer:0,b1:1,b2:0,sprite:246},
-			{is_trainer:0,b1:1,b2:0,sprite:247},
-			{is_trainer:0,b1:1,b2:0,sprite:248},
-			{is_trainer:0,b1:1,b2:0,sprite:249},
-			{is_trainer:0,b1:1,b2:0,sprite:250},
-			{is_trainer:0,b1:1,b2:0,sprite:251},
-			{is_trainer:0,b1:8,b2:0,sprite:215},
-			{is_trainer:0,b1:8,b2:0,sprite:142},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-		]},
-	{
-		signs:[
-			{x:5,y:1},
-			{x:7,y:1},
-			{x:3,y:1},
-			{x:8,y:1},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'LITTLEROOT TOWN (1.2)','x':1,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'105','x':1,'y':1},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'240','x':0,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'241','x':1,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'242','x':2,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'243','x':3,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'244','x':4,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'245','x':5,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'246','x':0,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'247','x':1,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'248','x':2,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'249','x':3,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'250','x':4,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'251','x':5,'y':7},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'215','x':1,'y':1},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'142','x':3,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':5,'y':4},
+		],
+	
+		'signs':[
+			{'x':5,'y':1},
+			{'x':7,'y':1},
+			{'x':3,'y':1},
+			{'x':8,'y':1},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 0, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, ],

@@ -1,30 +1,30 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 110 (29.0),ROUTE 110 (29.0),ROUTE 110 (29.1),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:10,b2:0,sprite:38},
-			{is_trainer:1,b1:8,b2:0,sprite:38},
-			{is_trainer:1,b1:9,b2:0,sprite:14},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-		]},
-	{
-		signs:[
-			{x:14,y:14},
-		]},
-	{
-		triggers:[
-			{x:11,y:12,flag:16385,scriptPointer:2538461},
-			{x:0,y:4,flag:16386,scriptPointer:2538480},
-			{x:14,y:5,flag:16387,scriptPointer:2538499},
-			{x:7,y:11,flag:16388,scriptPointer:2538518},
-		]},
+	
+		'exits':[{'name':'ROUTE 110 (29.0)','x':0,'y':21},{'name':'ROUTE 110 (29.0)','x':1,'y':21},{'name':'ROUTE 110 (29.1)','x':13,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'38','x':13,'y':10},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'38','x':10,'y':17},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'14','x':11,'y':9},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':8,'y':17},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':3,'y':13},
+		],
+	
+		'signs':[
+			{'x':14,'y':14},
+		],
+	
+		'triggers':[
+			{'x':11,'y':12,'flag':16385,'scriptPointer':2538461},
+			{'x':0,'y':4,'flag':16386,'scriptPointer':2538480},
+			{'x':14,'y':5,'flag':16387,'scriptPointer':2538499},
+			{'x':7,'y':11,'flag':16388,'scriptPointer':2538518},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 12, 12, 12, 12, 12, ],

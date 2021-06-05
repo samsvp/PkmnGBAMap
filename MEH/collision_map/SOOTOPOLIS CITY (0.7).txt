@@ -1,44 +1,44 @@
 connections=[
 		],
 events={
-	{
-		exits:[SOOTOPOLIS CITY (15.2),SOOTOPOLIS CITY (15.4),SOOTOPOLIS CITY (15.0),CAVE OF ORIGIN (24.37),SOOTOPOLIS CITY (15.5),SOOTOPOLIS CITY (15.6),SOOTOPOLIS CITY (15.7),SOOTOPOLIS CITY (15.8),SOOTOPOLIS CITY (15.9),SOOTOPOLIS CITY (15.10),SOOTOPOLIS CITY (15.11),SOOTOPOLIS CITY (15.12),SOOTOPOLIS CITY (15.13),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:21},
-			{is_trainer:0,b1:9,b2:0,sprite:26},
-			{is_trainer:0,b1:5,b2:0,sprite:10},
-			{is_trainer:0,b1:8,b2:0,sprite:5},
-			{is_trainer:0,b1:1,b2:0,sprite:7},
-			{is_trainer:0,b1:5,b2:0,sprite:19},
-			{is_trainer:0,b1:8,b2:0,sprite:134},
-			{is_trainer:0,b1:3,b2:0,sprite:34},
-			{is_trainer:0,b1:80,b2:0,sprite:222},
-			{is_trainer:0,b1:79,b2:0,sprite:221},
-			{is_trainer:0,b1:10,b2:0,sprite:207},
-			{is_trainer:0,b1:10,b2:0,sprite:39},
-			{is_trainer:0,b1:10,b2:0,sprite:14},
-			{is_trainer:0,b1:10,b2:0,sprite:44},
-			{is_trainer:0,b1:8,b2:0,sprite:9},
-			{is_trainer:0,b1:8,b2:0,sprite:196},
-			{is_trainer:0,b1:8,b2:0,sprite:195},
-			{is_trainer:0,b1:8,b2:0,sprite:133},
-		]},
-	{
-		signs:[
-			{x:33,y:34},
-			{x:19,y:29},
-			{x:44,y:31},
-			{x:45,y:31},
-			{x:18,y:29},
-			{x:41,y:37},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'SOOTOPOLIS CITY (15.2)','x':43,'y':31},{'name':'SOOTOPOLIS CITY (15.4)','x':17,'y':29},{'name':'SOOTOPOLIS CITY (15.0)','x':31,'y':32},{'name':'CAVE OF ORIGIN (24.37)','x':31,'y':16},{'name':'SOOTOPOLIS CITY (15.5)','x':9,'y':6},{'name':'SOOTOPOLIS CITY (15.6)','x':45,'y':6},{'name':'SOOTOPOLIS CITY (15.7)','x':9,'y':17},{'name':'SOOTOPOLIS CITY (15.8)','x':44,'y':17},{'name':'SOOTOPOLIS CITY (15.9)','x':9,'y':26},{'name':'SOOTOPOLIS CITY (15.10)','x':53,'y':28},{'name':'SOOTOPOLIS CITY (15.11)','x':8,'y':35},{'name':'SOOTOPOLIS CITY (15.12)','x':48,'y':25},{'name':'SOOTOPOLIS CITY (15.13)','x':51,'y':36},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'21','x':31,'y':18},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'26','x':47,'y':33},
+			{'is_trainer':0,'b1':5,'b2':0,'sprite':'10','x':9,'y':43},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'5','x':51,'y':14},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'7','x':43,'y':26},
+			{'is_trainer':0,'b1':5,'b2':0,'sprite':'19','x':26,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'134','x':20,'y':36},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'34','x':49,'y':34},
+			{'is_trainer':0,'b1':80,'b2':0,'sprite':'222','x':28,'y':44},
+			{'is_trainer':0,'b1':79,'b2':0,'sprite':'221','x':34,'y':44},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'207','x':31,'y':41},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'39','x':17,'y':44},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'14','x':14,'y':42},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'44','x':17,'y':40},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'9','x':19,'y':37},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'196','x':29,'y':33},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'195','x':31,'y':33},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'133','x':31,'y':18},
+		],
+	
+		'signs':[
+			{'x':33,'y':34},
+			{'x':19,'y':29},
+			{'x':44,'y':31},
+			{'x':45,'y':31},
+			{'x':18,'y':29},
+			{'x':41,'y':37},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 1, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 12, ],

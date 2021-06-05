@@ -1,32 +1,32 @@
 connections=[
 		],
 events={
-	{
-		exits:[DEWFORD TOWN (0.11),DEWFORD TOWN (0.11),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:126},
-			{is_trainer:1,b1:7,b2:0,sprite:44},
-			{is_trainer:1,b1:8,b2:0,sprite:14},
-			{is_trainer:1,b1:7,b2:0,sprite:14},
-			{is_trainer:0,b1:8,b2:0,sprite:23},
-			{is_trainer:1,b1:10,b2:0,sprite:44},
-			{is_trainer:1,b1:8,b2:0,sprite:14},
-			{is_trainer:1,b1:10,b2:0,sprite:49},
-		]},
-	{
-		signs:[
-			{x:4,y:23},
-			{x:7,y:23},
-			{x:4,y:24},
-			{x:7,y:24},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'DEWFORD TOWN (0.11)','x':5,'y':27},{'name':'DEWFORD TOWN (0.11)','x':6,'y':27},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'126','x':4,'y':3},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'44','x':2,'y':18},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'14','x':15,'y':3},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'14','x':12,'y':25},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'23','x':5,'y':24},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'44','x':7,'y':8},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'14','x':16,'y':9},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'49','x':14,'y':12},
+		],
+	
+		'signs':[
+			{'x':4,'y':23},
+			{'x':7,'y':23},
+			{'x':4,'y':24},
+			{'x':7,'y':24},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

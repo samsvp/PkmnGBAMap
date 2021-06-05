@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[EVER GRANDE CITY (0.8),EVER GRANDE CITY (0.8),EVER GRANDE CITY (16.13),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:58},
-			{is_trainer:0,b1:8,b2:0,sprite:34},
-			{is_trainer:0,b1:10,b2:0,sprite:21},
-			{is_trainer:0,b1:7,b2:0,sprite:219},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'EVER GRANDE CITY (0.8)','x':7,'y':8},{'name':'EVER GRANDE CITY (0.8)','x':6,'y':8},{'name':'EVER GRANDE CITY (16.13)','x':1,'y':6},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'58','x':7,'y':2},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'34','x':5,'y':5},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'21','x':10,'y':7},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'219','x':9,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 1, 1, 1, 12, 1, 1, 12, 12, 12, 12, ],

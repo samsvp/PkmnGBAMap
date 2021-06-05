@@ -1,32 +1,32 @@
 connections=[
-			{up:ROUTE 106 (0.21)},
-			{right:ROUTE 107 (0.22)},
+			{'up':'ROUTE 106 (0.21)'},
+			{'right':'ROUTE 107 (0.22)'},
 		],
 events={
-	{
-		exits:[DEWFORD TOWN (3.4),DEWFORD TOWN (3.1),DEWFORD TOWN (3.3),DEWFORD TOWN (3.0),DEWFORD TOWN (3.5),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:5,b2:0,sprite:20},
-			{is_trainer:0,b1:9,b2:0,sprite:21},
-			{is_trainer:0,b1:5,b2:0,sprite:50},
-			{is_trainer:0,b1:8,b2:0,sprite:88},
-			{is_trainer:0,b1:1,b2:0,sprite:7},
-		]},
-	{
-		signs:[
-			{x:10,y:10},
-			{x:11,y:16},
-			{x:4,y:10},
-			{x:3,y:10},
-			{x:2,y:4},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'DEWFORD TOWN (3.4)','x':3,'y':3},{'name':'DEWFORD TOWN (3.1)','x':2,'y':10},{'name':'DEWFORD TOWN (3.3)','x':8,'y':17},{'name':'DEWFORD TOWN (3.0)','x':17,'y':14},{'name':'DEWFORD TOWN (3.5)','x':8,'y':8},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':5,'b2':0,'sprite':'20','x':7,'y':12},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'21','x':12,'y':9},
+			{'is_trainer':0,'b1':5,'b2':0,'sprite':'50','x':12,'y':14},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'88','x':12,'y':8},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'7','x':1,'y':6},
+		],
+	
+		'signs':[
+			{'x':10,'y':10},
+			{'x':11,'y':16},
+			{'x':4,'y':10},
+			{'x':3,'y':10},
+			{'x':2,'y':4},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 4, 4, 5, 1, 1, 1, 12, 1, 12, ],
 	[1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 4, 4, 5, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 4, 4, 5, 1, 12, 1, 1, 1, 1, ],

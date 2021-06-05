@@ -1,33 +1,33 @@
 connections=[
 		],
 events={
-	{
-		exits:[MAUVILLE CITY (0.2),MAUVILLE CITY (0.2),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:127},
-			{is_trainer:1,b1:8,b2:0,sprite:66},
-			{is_trainer:1,b1:7,b2:0,sprite:14},
-			{is_trainer:1,b1:9,b2:0,sprite:35},
-			{is_trainer:1,b1:8,b2:0,sprite:66},
-			{is_trainer:0,b1:9,b2:0,sprite:23},
-			{is_trainer:1,b1:7,b2:0,sprite:39},
-		]},
-	{
-		signs:[
-			{x:3,y:18},
-			{x:6,y:18},
-		]},
-	{
-		triggers:[
-			{x:4,y:12,flag:16384,scriptPointer:2154526},
-			{x:3,y:9,flag:16384,scriptPointer:2154563},
-			{x:0,y:15,flag:16384,scriptPointer:2154489},
-			{x:8,y:9,flag:16384,scriptPointer:2154600},
-		]},
+	
+		'exits':[{'name':'MAUVILLE CITY (0.2)','x':4,'y':20},{'name':'MAUVILLE CITY (0.2)','x':5,'y':20},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'127','x':5,'y':2},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'66','x':7,'y':8},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'14','x':1,'y':16},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'35','x':5,'y':10},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'66','x':1,'y':13},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'23','x':7,'y':20},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'39','x':7,'y':10},
+		],
+	
+		'signs':[
+			{'x':3,'y':18},
+			{'x':6,'y':18},
+		],
+	
+		'triggers':[
+			{'x':4,'y':12,'flag':16384,'scriptPointer':2154526},
+			{'x':3,'y':9,'flag':16384,'scriptPointer':2154563},
+			{'x':0,'y':15,'flag':16384,'scriptPointer':2154489},
+			{'x':8,'y':9,'flag':16384,'scriptPointer':2154600},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 0, 0, 1, 1, 1, 1, ],

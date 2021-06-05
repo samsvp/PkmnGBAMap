@@ -1,21 +1,21 @@
 connections=[
 		],
 events={
-	{
-		exits:[MAUVILLE CITY (0.2),MAUVILLE CITY (0.2),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:10,b2:0,sprite:46},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MAUVILLE CITY (0.2)','x':3,'y':7},{'name':'MAUVILLE CITY (0.2)','x':4,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'46','x':4,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

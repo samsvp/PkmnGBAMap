@@ -1,25 +1,25 @@
 connections=[
 		],
 events={
-	{
-		exits:[		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:28},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:6,y:4,flag:16384,scriptPointer:2585629},
-			{x:6,y:6,flag:16384,scriptPointer:2585671},
-			{x:13,y:4,flag:16384,scriptPointer:2585650},
-			{x:13,y:6,flag:16384,scriptPointer:2585692},
-		]},
+	
+		'exits':[		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'28','x':10,'y':5},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':6,'y':4,'flag':16384,'scriptPointer':2585629},
+			{'x':6,'y':6,'flag':16384,'scriptPointer':2585671},
+			{'x':13,'y':4,'flag':16384,'scriptPointer':2585650},
+			{'x':13,'y':6,'flag':16384,'scriptPointer':2585692},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, ],

@@ -1,31 +1,31 @@
 connections=[
 		],
 events={
-	{
-		exits:[		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:113},
-			{is_trainer:0,b1:8,b2:0,sprite:113},
-			{is_trainer:0,b1:8,b2:0,sprite:113},
-		]},
-	{
-		signs:[
-			{x:1,y:0},
-			{x:3,y:4},
-			{x:2,y:3},
-			{x:0,y:1},
-			{x:0,y:2},
-		]},
-	{
-		triggers:[
-			{x:3,y:1,flag:16530,scriptPointer:2342660},
-			{x:3,y:2,flag:16530,scriptPointer:2342660},
-			{x:3,y:3,flag:16530,scriptPointer:2342660},
-		]},
+	
+		'exits':[		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'113','x':0,'y':0},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'113','x':0,'y':3},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'113','x':2,'y':3},
+		],
+	
+		'signs':[
+			{'x':1,'y':0},
+			{'x':3,'y':4},
+			{'x':2,'y':3},
+			{'x':0,'y':1},
+			{'x':0,'y':2},
+		],
+	
+		'triggers':[
+			{'x':3,'y':1,'flag':16530,'scriptPointer':2342660},
+			{'x':3,'y':2,'flag':16530,'scriptPointer':2342660},
+			{'x':3,'y':3,'flag':16530,'scriptPointer':2342660},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, ],
 	[1, 12, 12, 12, 0, ],
 	[1, 12, 12, 12, 0, ],

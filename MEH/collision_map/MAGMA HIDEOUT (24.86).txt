@@ -1,26 +1,26 @@
 connections=[
 		],
 events={
-	{
-		exits:[JAGGED PASS (24.13),MAGMA HIDEOUT (24.87),MAGMA HIDEOUT (24.88),MAGMA HIDEOUT (24.93),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:10,b2:0,sprite:119},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:1,b1:9,b2:0,sprite:119},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'JAGGED PASS (24.13)','x':10,'y':34},{'name':'MAGMA HIDEOUT (24.87)','x':25,'y':34},{'name':'MAGMA HIDEOUT (24.88)','x':31,'y':3},{'name':'MAGMA HIDEOUT (24.93)','x':20,'y':22},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'119','x':4,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':3,'y':20},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'119','x':30,'y':20},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':5,'y':22},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':7,'y':22},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':6,'y':23},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, ],

@@ -1,20 +1,20 @@
 connections=[
 		],
 events={
-	{
-		exits:[SKY PILLAR (24.82),SKY PILLAR (24.85),		]},
-	{
-		NPCs:[
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'SKY PILLAR (24.82)','x':3,'y':1},{'name':'SKY PILLAR (24.85)','x':10,'y':1},		],
+	
+		'NPCs':[
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 13, 12, 12, 12, 13, 12, 12, 12, 12, ],

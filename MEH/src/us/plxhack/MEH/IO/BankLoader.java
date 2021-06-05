@@ -202,14 +202,15 @@ public class BankLoader extends Thread implements Runnable
 	 */
 	public String GetNPCs(Map map)
 	{
-		String NPCs = "{\n\t\tNPCs:[\n";
+		String NPCs = "\n\t\t'NPCs':[\n";
 
 		for (SpriteNPC npc : map.mapNPCManager.mapNPCs) {
-			NPCs += "\t\t\t{is_trainer:" + npc.bIsTrainer + ",b1:" + npc.bBehavior1 + 
-				",b2:" + npc.bBehavior2 + ",sprite:" + npc.bSpriteSet + "},\n";
+			NPCs += "\t\t\t{'is_trainer':" + npc.bIsTrainer + ",'b1':" + npc.bBehavior1 + 
+				",'b2':" + npc.bBehavior2 + ",'sprite':'" + npc.bSpriteSet + "','x':" + npc.bX +
+				",'y':" + npc.bY + "},\n";
 		}
 
-		NPCs += "\t\t]}";
+		NPCs += "\t\t]";
 		return NPCs;
 	}
 
@@ -220,14 +221,14 @@ public class BankLoader extends Thread implements Runnable
 	 */
 	public String GetTriggers(Map map)
 	{
-		String triggers = "{\n\t\ttriggers:[\n";
+		String triggers = "\n\t\t'triggers':[\n";
 
 		for (Trigger trigger: map.mapTriggerManager.mapTriggers) {
-			triggers += "\t\t\t{x:" + trigger.bX + ",y:" + trigger.bY + 
-				",flag:" + trigger.hFlagCheck + ",scriptPointer:" + trigger.pScript + "},\n";
+			triggers += "\t\t\t{'x':" + trigger.bX + ",'y':" + trigger.bY + 
+				",'flag':" + trigger.hFlagCheck + ",'scriptPointer':" + trigger.pScript + "},\n";
 		}
 
-		triggers += "\t\t]}";
+		triggers += "\t\t]";
 		return triggers;
 	}
 
@@ -239,13 +240,13 @@ public class BankLoader extends Thread implements Runnable
 	 */
 	public String GetSigns(Map map)
 	{
-		String signs = "{\n\t\tsigns:[\n";
+		String signs = "\n\t\t'signs':[\n";
 
 		for (SpriteSign sign: map.mapSignManager.mapSigns) {
-			signs += "\t\t\t{x:" + sign.bX + ",y:" + sign.bY + "},\n";
+			signs += "\t\t\t{'x':" + sign.bX + ",'y':" + sign.bY + "},\n";
 		}
 
-		signs += "\t\t]}";
+		signs += "\t\t]";
 		return signs;
 	}
 
@@ -256,19 +257,19 @@ public class BankLoader extends Thread implements Runnable
 	 */
 	public String GetExits(Map map)
 	{
-		String exits = "{\n\t\texits:[";
+		String exits = "\n\t\t'exits':[";
 
 		for (SpriteExit n : map.mapExitManager.mapExits)
 		{
 			try {
 				MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(n.bBank, n.bMap);
-				exits += mtn.mapName + ",";
+				exits += "{'name':'" + mtn.mapName + "','x':" +  n.bX + ",'y':" + n.bY + "},";
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
 
-		exits +=  "\t\t]}";
+		exits +=  "\t\t]";
 		return exits;
 	}
 
@@ -317,7 +318,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "\t\t\t{down:" + mtn.mapName + "},\n";
+					connections += "\t\t\t{'down':'" + mtn.mapName + "'},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -330,7 +331,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "\t\t\t{up:" + mtn.mapName + "},\n";
+					connections += "\t\t\t{'up':'" + mtn.mapName + "'},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -343,7 +344,7 @@ public class BankLoader extends Thread implements Runnable
 				
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "\t\t\t{left:" + mtn.mapName + "},\n";
+					connections += "\t\t\t{'left':'" + mtn.mapName + "'},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -356,7 +357,7 @@ public class BankLoader extends Thread implements Runnable
 
 				try {
 					MapTreeNode mtn = BankLoader.GetTreeNodeFromBankMap(c.bBank & 0xFF, c.bMap & 0xFF);
-					connections += "\t\t\t{right:" + mtn.mapName + "},\n";
+					connections += "\t\t\t{'right':'" + mtn.mapName + "'},\n";
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -419,7 +420,7 @@ public class BankLoader extends Thread implements Runnable
 			out.println("connections=" + connections + ",");
 			out.println("events=" + events + ",");
 
-			out.println("[");
+			out.println("partial_map=[");
 			for (ArrayList<String> row : sMap) {
 				out.print("\t[");
 				for (String string : row) {

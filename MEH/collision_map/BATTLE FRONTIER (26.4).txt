@@ -1,50 +1,50 @@
 connections=[
-			{right:BATTLE FRONTIER (26.14)},
+			{'right':'BATTLE FRONTIER (26.14)'},
 		],
 events={
-	{
-		exits:[BATTLE FRONTIER (26.34),BATTLE FRONTIER (26.18),BATTLE FRONTIER (26.31),BATTLE FRONTIER (26.43),BATTLE FRONTIER (26.55),BATTLE FRONTIER (26.46),BATTLE FRONTIER (26.45),BATTLE FRONTIER (26.49),BATTLE FRONTIER (26.50),BATTLE FRONTIER (26.50),ARTISAN CAVE (24.99),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:2,b2:0,sprite:9},
-			{is_trainer:0,b1:10,b2:0,sprite:140},
-			{is_trainer:0,b1:7,b2:0,sprite:45},
-			{is_trainer:0,b1:5,b2:0,sprite:21},
-			{is_trainer:0,b1:2,b2:0,sprite:33},
-			{is_trainer:0,b1:2,b2:0,sprite:34},
-			{is_trainer:0,b1:3,b2:0,sprite:17},
-			{is_trainer:0,b1:2,b2:0,sprite:48},
-			{is_trainer:0,b1:7,b2:0,sprite:39},
-			{is_trainer:0,b1:7,b2:0,sprite:39},
-			{is_trainer:0,b1:15,b2:0,sprite:66},
-			{is_trainer:0,b1:2,b2:0,sprite:8},
-			{is_trainer:0,b1:3,b2:0,sprite:24},
-			{is_trainer:0,b1:15,b2:0,sprite:31},
-			{is_trainer:0,b1:2,b2:0,sprite:47},
-			{is_trainer:0,b1:9,b2:0,sprite:23},
-			{is_trainer:0,b1:8,b2:0,sprite:50},
-			{is_trainer:0,b1:18,b2:0,sprite:50},
-			{is_trainer:0,b1:3,b2:0,sprite:17},
-			{is_trainer:0,b1:8,b2:0,sprite:20},
-			{is_trainer:0,b1:7,b2:0,sprite:7},
-			{is_trainer:0,b1:23,b2:0,sprite:29},
-			{is_trainer:0,b1:8,b2:0,sprite:65},
-			{is_trainer:0,b1:24,b2:0,sprite:18},
-		]},
-	{
-		signs:[
-			{x:15,y:18},
-			{x:45,y:30},
-			{x:16,y:43},
-			{x:52,y:51},
-			{x:53,y:51},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'BATTLE FRONTIER (26.34)','x':42,'y':27},{'name':'BATTLE FRONTIER (26.18)','x':19,'y':17},{'name':'BATTLE FRONTIER (26.31)','x':11,'y':38},{'name':'BATTLE FRONTIER (26.43)','x':45,'y':44},{'name':'BATTLE FRONTIER (26.55)','x':51,'y':51},{'name':'BATTLE FRONTIER (26.46)','x':44,'y':5},{'name':'BATTLE FRONTIER (26.45)','x':53,'y':44},{'name':'BATTLE FRONTIER (26.49)','x':5,'y':20},{'name':'BATTLE FRONTIER (26.50)','x':26,'y':65},{'name':'BATTLE FRONTIER (26.50)','x':26,'y':61},{'name':'ARTISAN CAVE (24.99)','x':39,'y':55},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'9','x':26,'y':38},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'140','x':20,'y':70},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'45','x':19,'y':68},
+			{'is_trainer':0,'b1':5,'b2':0,'sprite':'21','x':26,'y':20},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'33','x':27,'y':30},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'34','x':33,'y':41},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'17','x':28,'y':43},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'48','x':17,'y':20},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'39','x':13,'y':44},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'39','x':14,'y':44},
+			{'is_trainer':0,'b1':15,'b2':0,'sprite':'66','x':23,'y':47},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'8','x':38,'y':27},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'24','x':45,'y':18},
+			{'is_trainer':0,'b1':15,'b2':0,'sprite':'31','x':9,'y':47},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'47','x':35,'y':5},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'23','x':11,'y':66},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'50','x':31,'y':31},
+			{'is_trainer':0,'b1':18,'b2':0,'sprite':'50','x':42,'y':48},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'17','x':38,'y':22},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'20','x':12,'y':9},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'7','x':12,'y':10},
+			{'is_trainer':0,'b1':23,'b2':0,'sprite':'29','x':11,'y':10},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'65','x':8,'y':5},
+			{'is_trainer':0,'b1':24,'b2':0,'sprite':'18','x':4,'y':26},
+		],
+	
+		'signs':[
+			{'x':15,'y':18},
+			{'x':45,'y':30},
+			{'x':16,'y':43},
+			{'x':52,'y':51},
+			{'x':53,'y':51},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, ],
 	[1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, ],
 	[1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],

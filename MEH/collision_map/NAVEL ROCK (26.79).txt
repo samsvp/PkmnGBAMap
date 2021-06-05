@@ -1,20 +1,20 @@
 connections=[
 		],
 events={
-	{
-		exits:[NAVEL ROCK (26.78),NAVEL ROCK (26.80),		]},
-	{
-		NPCs:[
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'NAVEL ROCK (26.78)','x':5,'y':5},{'name':'NAVEL ROCK (26.80)','x':3,'y':3},		],
+	
+		'NPCs':[
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[0, 0, 0, 0, 0, 0, 0, 0, 0, ],
 	[0, 1, 1, 1, 1, 1, 1, 1, 0, ],
 	[0, 1, 1, 1, 1, 1, 1, 1, 0, ],

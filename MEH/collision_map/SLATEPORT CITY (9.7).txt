@@ -1,49 +1,49 @@
 connections=[
 		],
 events={
-	{
-		exits:[SLATEPORT CITY (0.1),SLATEPORT CITY (0.1),SLATEPORT CITY (9.8),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:10,b2:0,sprite:45},
-			{is_trainer:0,b1:7,b2:0,sprite:117},
-			{is_trainer:0,b1:7,b2:0,sprite:117},
-			{is_trainer:0,b1:7,b2:0,sprite:117},
-			{is_trainer:0,b1:9,b2:0,sprite:118},
-			{is_trainer:0,b1:10,b2:0,sprite:117},
-			{is_trainer:0,b1:9,b2:0,sprite:45},
-			{is_trainer:0,b1:8,b2:0,sprite:117},
-			{is_trainer:0,b1:1,b2:0,sprite:34},
-			{is_trainer:0,b1:7,b2:0,sprite:39},
-			{is_trainer:0,b1:10,b2:0,sprite:25},
-			{is_trainer:0,b1:7,b2:0,sprite:12},
-			{is_trainer:0,b1:21,b2:0,sprite:117},
-			{is_trainer:0,b1:1,b2:0,sprite:67},
-		]},
-	{
-		signs:[
-			{x:2,y:7},
-			{x:2,y:4},
-			{x:9,y:1},
-			{x:12,y:1},
-			{x:10,y:1},
-			{x:13,y:1},
-			{x:15,y:4},
-			{x:18,y:4},
-			{x:18,y:7},
-			{x:2,y:1},
-			{x:3,y:1},
-			{x:16,y:1},
-			{x:17,y:1},
-		]},
-	{
-		triggers:[
-			{x:9,y:7,flag:16554,scriptPointer:2141599},
-			{x:10,y:7,flag:16554,scriptPointer:2141616},
-		]},
+	
+		'exits':[{'name':'SLATEPORT CITY (0.1)','x':9,'y':8},{'name':'SLATEPORT CITY (0.1)','x':10,'y':8},{'name':'SLATEPORT CITY (9.8)','x':6,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'45','x':7,'y':7},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'117','x':18,'y':5},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'117','x':12,'y':2},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'117','x':2,'y':8},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'118','x':3,'y':4},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'117','x':14,'y':4},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'45','x':12,'y':7},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'117','x':8,'y':3},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'34','x':4,'y':2},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'39','x':10,'y':2},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'25','x':17,'y':7},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'12','x':18,'y':8},
+			{'is_trainer':0,'b1':21,'b2':0,'sprite':'117','x':9,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'67','x':7,'y':4},
+		],
+	
+		'signs':[
+			{'x':2,'y':7},
+			{'x':2,'y':4},
+			{'x':9,'y':1},
+			{'x':12,'y':1},
+			{'x':10,'y':1},
+			{'x':13,'y':1},
+			{'x':15,'y':4},
+			{'x':18,'y':4},
+			{'x':18,'y':7},
+			{'x':2,'y':1},
+			{'x':3,'y':1},
+			{'x':16,'y':1},
+			{'x':17,'y':1},
+		],
+	
+		'triggers':[
+			{'x':9,'y':7,'flag':16554,'scriptPointer':2141599},
+			{'x':10,'y':7,'flag':16554,'scriptPointer':2141616},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

@@ -1,28 +1,28 @@
 connections=[
 		],
 events={
-	{
-		exits:[MT. PYRE (24.15),MT. PYRE (24.17),MT. PYRE (24.17),MT. PYRE (24.17),MT. PYRE (24.15),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:10,b2:0,sprite:39},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:10,b2:0,sprite:16},
-			{is_trainer:0,b1:8,b2:0,sprite:25},
-			{is_trainer:1,b1:8,b2:0,sprite:26},
-			{is_trainer:1,b1:8,b2:0,sprite:65},
-			{is_trainer:1,b1:7,b2:0,sprite:44},
-			{is_trainer:1,b1:17,b2:0,sprite:40},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MT. PYRE (24.15)','x':2,'y':1},{'name':'MT. PYRE (24.17)','x':10,'y':1},{'name':'MT. PYRE (24.17)','x':10,'y':12},{'name':'MT. PYRE (24.17)','x':6,'y':12},{'name':'MT. PYRE (24.15)','x':11,'y':9},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'39','x':3,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':0,'y':10},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'16','x':9,'y':3},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'25','x':12,'y':10},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'26','x':2,'y':9},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'65','x':3,'y':9},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'44','x':6,'y':9},
+			{'is_trainer':1,'b1':17,'b2':0,'sprite':'40','x':6,'y':6},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 1, 1, 12, 12, 12, 12, 1, ],

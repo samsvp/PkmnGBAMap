@@ -1,41 +1,41 @@
 connections=[
 		],
 events={
-	{
-		exits:[LITTLEROOT TOWN (0.9),LITTLEROOT TOWN (0.9),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:2,b2:0,sprite:46},
-			{is_trainer:0,b1:8,b2:0,sprite:64},
-			{is_trainer:0,b1:8,b2:0,sprite:240},
-			{is_trainer:0,b1:8,b2:0,sprite:59},
-			{is_trainer:0,b1:8,b2:0,sprite:59},
-			{is_trainer:0,b1:8,b2:0,sprite:59},
-		]},
-	{
-		signs:[
-			{x:10,y:7},
-			{x:11,y:7},
-			{x:7,y:1},
-			{x:8,y:1},
-			{x:1,y:1},
-			{x:0,y:7},
-			{x:1,y:7},
-			{x:2,y:7},
-			{x:3,y:7},
-			{x:4,y:1},
-			{x:3,y:1},
-			{x:1,y:10},
-			{x:1,y:9},
-			{x:11,y:10},
-			{x:11,y:9},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'LITTLEROOT TOWN (0.9)','x':6,'y':12},{'name':'LITTLEROOT TOWN (0.9)','x':7,'y':12},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'46','x':9,'y':8},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'64','x':6,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'240','x':7,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'59','x':6,'y':8},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'59','x':6,'y':8},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'59','x':6,'y':8},
+		],
+	
+		'signs':[
+			{'x':10,'y':7},
+			{'x':11,'y':7},
+			{'x':7,'y':1},
+			{'x':8,'y':1},
+			{'x':1,'y':1},
+			{'x':0,'y':7},
+			{'x':1,'y':7},
+			{'x':2,'y':7},
+			{'x':3,'y':7},
+			{'x':4,'y':1},
+			{'x':3,'y':1},
+			{'x':1,'y':10},
+			{'x':1,'y':9},
+			{'x':11,'y':10},
+			{'x':11,'y':9},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 12, 1, 12, 12, 12, 12, 12, 12, 12, 12, 1, 1, ],

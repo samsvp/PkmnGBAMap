@@ -1,22 +1,22 @@
 connections=[
 		],
 events={
-	{
-		exits:[RUSTBORO CITY (0.3),RUSTBORO CITY (0.3),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:9,b2:0,sprite:31},
-			{is_trainer:0,b1:8,b2:0,sprite:55},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'RUSTBORO CITY (0.3)','x':5,'y':7},{'name':'RUSTBORO CITY (0.3)','x':6,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'31','x':6,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'55','x':9,'y':2},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[13, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, ],

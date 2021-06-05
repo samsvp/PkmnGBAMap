@@ -1,27 +1,27 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 111 (0.26),ROUTE 111 (0.26),TRAINER HILL (26.61),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:9,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:58},
-			{is_trainer:0,b1:8,b2:0,sprite:83},
-			{is_trainer:0,b1:2,b2:0,sprite:14},
-			{is_trainer:0,b1:2,b2:0,sprite:33},
-		]},
-	{
-		signs:[
-			{x:8,y:10},
-		]},
-	{
-		triggers:[
-			{x:9,y:6,flag:16598,scriptPointer:2523689},
-		]},
+	
+		'exits':[{'name':'ROUTE 111 (0.26)','x':9,'y':16},{'name':'ROUTE 111 (0.26)','x':10,'y':16},{'name':'TRAINER HILL (26.61)','x':9,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'85','x':11,'y':6},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'58','x':4,'y':9},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'83','x':14,'y':9},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'14','x':5,'y':14},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'33','x':14,'y':15},
+		],
+	
+		'signs':[
+			{'x':8,'y':10},
+		],
+	
+		'triggers':[
+			{'x':9,'y':6,'flag':16598,'scriptPointer':2523689},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, ],

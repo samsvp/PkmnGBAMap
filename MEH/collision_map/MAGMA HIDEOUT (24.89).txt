@@ -1,23 +1,23 @@
 connections=[
 		],
 events={
-	{
-		exits:[MAGMA HIDEOUT (24.91),MAGMA HIDEOUT (24.90),MAGMA HIDEOUT (24.87),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:10,b2:0,sprite:119},
-			{is_trainer:1,b1:9,b2:0,sprite:120},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MAGMA HIDEOUT (24.91)','x':7,'y':21},{'name':'MAGMA HIDEOUT (24.90)','x':21,'y':9},{'name':'MAGMA HIDEOUT (24.87)','x':23,'y':3},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'119','x':2,'y':7},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'120','x':21,'y':21},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':9,'y':16},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, ],

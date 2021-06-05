@@ -1,50 +1,50 @@
 connections=[
-			{left:VERDANTURF TOWN (0.14)},
-			{right:MAUVILLE CITY (0.2)},
+			{'left':'VERDANTURF TOWN (0.14)'},
+			{'right':'MAUVILLE CITY (0.2)'},
 		],
 events={
-	{
-		exits:[ROUTE 117 (22.0),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:16},
-			{is_trainer:0,b1:40,b2:0,sprite:11},
-			{is_trainer:0,b1:8,b2:0,sprite:29},
-			{is_trainer:0,b1:1,b2:0,sprite:208},
-			{is_trainer:0,b1:1,b2:0,sprite:204},
-			{is_trainer:0,b1:1,b2:0,sprite:210},
-			{is_trainer:0,b1:1,b2:0,sprite:209},
-			{is_trainer:1,b1:28,b2:0,sprite:51},
-			{is_trainer:1,b1:23,b2:0,sprite:20},
-			{is_trainer:1,b1:16,b2:0,sprite:65},
-			{is_trainer:0,b1:12,b2:0,sprite:60},
-			{is_trainer:0,b1:12,b2:0,sprite:60},
-			{is_trainer:0,b1:12,b2:0,sprite:60},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:82},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:1,b1:33,b2:0,sprite:52},
-			{is_trainer:1,b1:7,b2:0,sprite:39},
-			{is_trainer:1,b1:8,b2:0,sprite:47},
-			{is_trainer:1,b1:8,b2:0,sprite:47},
-			{is_trainer:0,b1:2,b2:0,sprite:10},
-			{is_trainer:1,b1:10,b2:0,sprite:47},
-			{is_trainer:1,b1:9,b2:0,sprite:14},
-			{is_trainer:1,b1:28,b2:0,sprite:52},
-		]},
-	{
-		signs:[
-			{x:16,y:6},
-			{x:49,y:12},
-			{x:49,y:5},
-			{x:3,y:18},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'ROUTE 117 (22.0)','x':51,'y':5},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'16','x':13,'y':13},
+			{'is_trainer':0,'b1':40,'b2':0,'sprite':'11','x':25,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'29','x':47,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'208','x':33,'y':3},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'204','x':39,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'210','x':42,'y':2},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'209','x':49,'y':2},
+			{'is_trainer':1,'b1':28,'b2':0,'sprite':'51','x':38,'y':16},
+			{'is_trainer':1,'b1':23,'b2':0,'sprite':'20','x':8,'y':10},
+			{'is_trainer':1,'b1':16,'b2':0,'sprite':'65','x':33,'y':11},
+			{'is_trainer':0,'b1':12,'b2':0,'sprite':'60','x':41,'y':13},
+			{'is_trainer':0,'b1':12,'b2':0,'sprite':'60','x':42,'y':13},
+			{'is_trainer':0,'b1':12,'b2':0,'sprite':'60','x':43,'y':13},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':16,'y':18},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'82','x':15,'y':2},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':9,'y':1},
+			{'is_trainer':1,'b1':33,'b2':0,'sprite':'52','x':26,'y':13},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'39','x':17,'y':12},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'47','x':43,'y':6},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'47','x':42,'y':6},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'10','x':48,'y':10},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'47','x':15,'y':4},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'14','x':21,'y':4},
+			{'is_trainer':1,'b1':28,'b2':0,'sprite':'52','x':16,'y':4},
+		],
+	
+		'signs':[
+			{'x':16,'y':6},
+			{'x':49,'y':12},
+			{'x':49,'y':5},
+			{'x':3,'y':18},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 4, 4, 4, 4, 4, 4, 4, 1, 1, 1, 13, 13, 12, 13, 12, 13, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 4, 4, 4, 4, 4, 4, 4, 4, 1, 1, 13, 13, 13, 13, 12, 13, 13, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

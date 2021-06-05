@@ -1,29 +1,29 @@
 connections=[
 		],
 events={
-	{
-		exits:[MT. PYRE (24.15),MT. PYRE (24.22),MT. PYRE (24.22),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-		]},
-	{
-		signs:[
-			{x:9,y:8},
-			{x:16,y:22},
-		]},
-	{
-		triggers:[
-			{x:24,y:21,flag:0,scriptPointer:2301933},
-			{x:25,y:21,flag:0,scriptPointer:2301933},
-			{x:22,y:27,flag:0,scriptPointer:2301938},
-			{x:23,y:28,flag:0,scriptPointer:2301938},
-			{x:26,y:21,flag:0,scriptPointer:2301933},
-		]},
+	
+		'exits':[{'name':'MT. PYRE (24.15)','x':10,'y':42},{'name':'MT. PYRE (24.22)','x':19,'y':10},{'name':'MT. PYRE (24.22)','x':20,'y':10},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':27,'y':15},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':19,'y':40},
+		],
+	
+		'signs':[
+			{'x':9,'y':8},
+			{'x':16,'y':22},
+		],
+	
+		'triggers':[
+			{'x':24,'y':21,'flag':0,'scriptPointer':2301933},
+			{'x':25,'y':21,'flag':0,'scriptPointer':2301933},
+			{'x':22,'y':27,'flag':0,'scriptPointer':2301938},
+			{'x':23,'y':28,'flag':0,'scriptPointer':2301938},
+			{'x':26,'y':21,'flag':0,'scriptPointer':2301933},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 12, 1, 12, 1, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 12, 1, 1, 1, 1, 1, 12, 1, 1, 12, 1, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 12, 1, 12, 1, 1, 1, 1, 1, 1, ],
 	[0, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 12, 1, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 12, 1, 12, 1, 1, 1, 1, 1, 1, ],

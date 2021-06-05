@@ -1,32 +1,32 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 114 (0.29),ROUTE 115 (0.30),METEOR FALLS (24.1),METEOR FALLS (24.2),METEOR FALLS (24.2),METEOR FALLS (24.107),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:8,b2:0,sprite:119},
-			{is_trainer:0,b1:9,b2:0,sprite:119},
-			{is_trainer:0,b1:10,b2:0,sprite:195},
-			{is_trainer:0,b1:10,b2:0,sprite:117},
-			{is_trainer:0,b1:1,b2:0,sprite:117},
-			{is_trainer:0,b1:21,b2:0,sprite:46},
-		]},
-	{
-		signs:[
-			{x:9,y:58},
-		]},
-	{
-		triggers:[
-			{x:14,y:18,flag:16575,scriptPointer:2276703},
-		]},
+	
+		'exits':[{'name':'ROUTE 114 (0.29)','x':27,'y':18},{'name':'ROUTE 115 (0.30)','x':6,'y':39},{'name':'METEOR FALLS (24.1)','x':10,'y':3},{'name':'METEOR FALLS (24.2)','x':5,'y':4},{'name':'METEOR FALLS (24.2)','x':26,'y':28},{'name':'METEOR FALLS (24.107)','x':4,'y':2},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':2,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':2,'y':14},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':27,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':26,'y':32},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'119','x':12,'y':20},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'119','x':14,'y':21},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'195','x':6,'y':20},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'117','x':6,'y':20},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'117','x':6,'y':21},
+			{'is_trainer':0,'b1':21,'b2':0,'sprite':'46','x':13,'y':23},
+		],
+	
+		'signs':[
+			{'x':9,'y':58},
+		],
+	
+		'triggers':[
+			{'x':14,'y':18,'flag':16575,'scriptPointer':2276703},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

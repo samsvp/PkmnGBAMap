@@ -1,26 +1,26 @@
 connections=[
 		],
 events={
-	{
-		exits:[		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:240},
-			{is_trainer:0,b1:10,b2:0,sprite:85},
-			{is_trainer:0,b1:10,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:241},
-			{is_trainer:0,b1:7,b2:0,sprite:255},
-			{is_trainer:0,b1:7,b2:0,sprite:254},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'240','x':5,'y':1},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'85','x':1,'y':4},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'85','x':1,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'241','x':4,'y':1},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'255','x':4,'y':8},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'254','x':5,'y':8},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 12, 12, 1, 1, 1, 1, ],
 	[1, 12, 12, 12, 12, 12, 12, 12, 12, 1, ],

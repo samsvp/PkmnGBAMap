@@ -1,25 +1,25 @@
 connections=[
 		],
 events={
-	{
-		exits:[LILYCOVE CITY (0.5),LILYCOVE CITY (0.5),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:45},
-			{is_trainer:0,b1:10,b2:0,sprite:140},
-			{is_trainer:0,b1:2,b2:0,sprite:49},
-			{is_trainer:0,b1:8,b2:0,sprite:49},
-			{is_trainer:0,b1:8,b2:0,sprite:21},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'LILYCOVE CITY (0.5)','x':11,'y':14},{'name':'LILYCOVE CITY (0.5)','x':12,'y':14},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'45','x':8,'y':10},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'140','x':8,'y':9},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'49','x':3,'y':13},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'49','x':8,'y':10},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'21','x':8,'y':10},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],

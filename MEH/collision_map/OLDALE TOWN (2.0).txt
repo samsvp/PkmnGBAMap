@@ -1,21 +1,21 @@
 connections=[
 		],
 events={
-	{
-		exits:[OLDALE TOWN (0.10),OLDALE TOWN (0.10),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:2,b2:0,sprite:20},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'OLDALE TOWN (0.10)','x':3,'y':8},{'name':'OLDALE TOWN (0.10)','x':4,'y':8},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'20','x':6,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 1, 1, ],

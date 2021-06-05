@@ -1,45 +1,45 @@
 connections=[
 		],
 events={
-	{
-		exits:[PETALBURG CITY (0.0),PETALBURG CITY (0.0),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),PETALBURG CITY (8.1),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:129},
-			{is_trainer:1,b1:8,b2:0,sprite:34},
-			{is_trainer:1,b1:8,b2:0,sprite:33},
-			{is_trainer:1,b1:8,b2:0,sprite:33},
-			{is_trainer:1,b1:8,b2:0,sprite:34},
-			{is_trainer:1,b1:8,b2:0,sprite:33},
-			{is_trainer:1,b1:8,b2:0,sprite:34},
-			{is_trainer:1,b1:8,b2:0,sprite:33},
-			{is_trainer:0,b1:8,b2:0,sprite:23},
-			{is_trainer:0,b1:7,b2:0,sprite:135},
-			{is_trainer:0,b1:7,b2:0,sprite:25},
-		]},
-	{
-		signs:[
-			{x:1,y:105},
-			{x:7,y:105},
-			{x:1,y:79},
-			{x:7,y:79},
-			{x:1,y:92},
-			{x:7,y:92},
-			{x:7,y:40},
-			{x:1,y:53},
-			{x:7,y:53},
-			{x:1,y:66},
-			{x:7,y:14},
-			{x:1,y:27},
-			{x:1,y:110},
-			{x:7,y:110},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'PETALBURG CITY (0.0)','x':4,'y':111},{'name':'PETALBURG CITY (0.0)','x':5,'y':111},{'name':'PETALBURG CITY (8.1)','x':1,'y':105},{'name':'PETALBURG CITY (8.1)','x':7,'y':85},{'name':'PETALBURG CITY (8.1)','x':6,'y':85},{'name':'PETALBURG CITY (8.1)','x':7,'y':105},{'name':'PETALBURG CITY (8.1)','x':1,'y':98},{'name':'PETALBURG CITY (8.1)','x':2,'y':98},{'name':'PETALBURG CITY (8.1)','x':1,'y':79},{'name':'PETALBURG CITY (8.1)','x':7,'y':79},{'name':'PETALBURG CITY (8.1)','x':7,'y':46},{'name':'PETALBURG CITY (8.1)','x':6,'y':46},{'name':'PETALBURG CITY (8.1)','x':1,'y':59},{'name':'PETALBURG CITY (8.1)','x':2,'y':59},{'name':'PETALBURG CITY (8.1)','x':1,'y':92},{'name':'PETALBURG CITY (8.1)','x':7,'y':92},{'name':'PETALBURG CITY (8.1)','x':7,'y':59},{'name':'PETALBURG CITY (8.1)','x':6,'y':59},{'name':'PETALBURG CITY (8.1)','x':1,'y':72},{'name':'PETALBURG CITY (8.1)','x':2,'y':72},{'name':'PETALBURG CITY (8.1)','x':7,'y':40},{'name':'PETALBURG CITY (8.1)','x':1,'y':53},{'name':'PETALBURG CITY (8.1)','x':7,'y':53},{'name':'PETALBURG CITY (8.1)','x':1,'y':66},{'name':'PETALBURG CITY (8.1)','x':1,'y':20},{'name':'PETALBURG CITY (8.1)','x':2,'y':20},{'name':'PETALBURG CITY (8.1)','x':7,'y':20},{'name':'PETALBURG CITY (8.1)','x':6,'y':20},{'name':'PETALBURG CITY (8.1)','x':1,'y':33},{'name':'PETALBURG CITY (8.1)','x':2,'y':33},{'name':'PETALBURG CITY (8.1)','x':7,'y':33},{'name':'PETALBURG CITY (8.1)','x':6,'y':33},{'name':'PETALBURG CITY (8.1)','x':7,'y':14},{'name':'PETALBURG CITY (8.1)','x':1,'y':27},{'name':'PETALBURG CITY (8.1)','x':1,'y':7},{'name':'PETALBURG CITY (8.1)','x':2,'y':7},{'name':'PETALBURG CITY (8.1)','x':7,'y':7},{'name':'PETALBURG CITY (8.1)','x':6,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'129','x':4,'y':2},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'34','x':4,'y':94},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'33','x':4,'y':81},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'33','x':4,'y':42},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'34','x':4,'y':55},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'33','x':4,'y':68},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'34','x':4,'y':16},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'33','x':4,'y':29},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'23','x':3,'y':109},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'135','x':4,'y':111},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'25','x':1,'y':7},
+		],
+	
+		'signs':[
+			{'x':1,'y':105},
+			{'x':7,'y':105},
+			{'x':1,'y':79},
+			{'x':7,'y':79},
+			{'x':1,'y':92},
+			{'x':7,'y':92},
+			{'x':7,'y':40},
+			{'x':1,'y':53},
+			{'x':7,'y':53},
+			{'x':1,'y':66},
+			{'x':7,'y':14},
+			{'x':1,'y':27},
+			{'x':1,'y':110},
+			{'x':7,'y':110},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 1, 0, 0, 0, 1, 12, 12, ],

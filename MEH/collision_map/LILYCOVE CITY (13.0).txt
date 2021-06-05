@@ -1,22 +1,22 @@
 connections=[
 		],
 events={
-	{
-		exits:[LILYCOVE CITY (0.5),LILYCOVE CITY (0.5),LILYCOVE CITY (13.1),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:7,b2:0,sprite:19},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:10,y:2,flag:16385,scriptPointer:2195985},
-		]},
+	
+		'exits':[{'name':'LILYCOVE CITY (0.5)','x':5,'y':8},{'name':'LILYCOVE CITY (0.5)','x':6,'y':8},{'name':'LILYCOVE CITY (13.1)','x':2,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'19','x':10,'y':3},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':10,'y':2,'flag':16385,'scriptPointer':2195985},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

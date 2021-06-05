@@ -1,35 +1,35 @@
 connections=[
-			{left:ROUTE 119 (0.34)},
-			{right:ROUTE 120 (0.35)},
+			{'left':'ROUTE 119 (0.34)'},
+			{'right':'ROUTE 120 (0.35)'},
 		],
 events={
-	{
-		exits:[FORTREE CITY (12.2),FORTREE CITY (12.0),FORTREE CITY (12.1),FORTREE CITY (12.4),FORTREE CITY (12.5),FORTREE CITY (12.6),FORTREE CITY (12.7),FORTREE CITY (12.8),FORTREE CITY (12.9),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:23},
-			{is_trainer:0,b1:2,b2:0,sprite:8},
-			{is_trainer:0,b1:3,b2:0,sprite:34},
-			{is_trainer:0,b1:1,b2:0,sprite:7},
-			{is_trainer:0,b1:1,b2:0,sprite:29},
-			{is_trainer:0,b1:8,b2:0,sprite:189},
-			{is_trainer:0,b1:76,b2:0,sprite:204},
-		]},
-	{
-		signs:[
-			{x:6,y:9},
-			{x:7,y:6},
-			{x:5,y:14},
-			{x:26,y:10},
-			{x:6,y:6},
-			{x:6,y:14},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'FORTREE CITY (12.2)','x':5,'y':6},{'name':'FORTREE CITY (12.0)','x':10,'y':3},{'name':'FORTREE CITY (12.1)','x':22,'y':11},{'name':'FORTREE CITY (12.4)','x':4,'y':14},{'name':'FORTREE CITY (12.5)','x':17,'y':3},{'name':'FORTREE CITY (12.6)','x':25,'y':3},{'name':'FORTREE CITY (12.7)','x':32,'y':2},{'name':'FORTREE CITY (12.8)','x':12,'y':13},{'name':'FORTREE CITY (12.9)','x':37,'y':13},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'23','x':31,'y':3},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'8','x':32,'y':16},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'34','x':32,'y':10},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'7','x':11,'y':14},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'29','x':8,'y':10},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'189','x':9,'y':16},
+			{'is_trainer':0,'b1':76,'b2':0,'sprite':'204','x':25,'y':8},
+		],
+	
+		'signs':[
+			{'x':6,'y':9},
+			{'x':7,'y':6},
+			{'x':5,'y':14},
+			{'x':26,'y':10},
+			{'x':6,'y':6},
+			{'x':6,'y':14},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, ],

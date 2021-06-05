@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[MOSSDEEP CITY (0.6),MOSSDEEP CITY (0.6),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:10,b2:0,sprite:83},
-			{is_trainer:0,b1:7,b2:0,sprite:34},
-			{is_trainer:0,b1:3,b2:0,sprite:9},
-			{is_trainer:0,b1:2,b2:0,sprite:49},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MOSSDEEP CITY (0.6)','x':3,'y':7},{'name':'MOSSDEEP CITY (0.6)','x':4,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'83','x':1,'y':3},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'34','x':1,'y':5},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'9','x':8,'y':3},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'49','x':5,'y':3},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 1, 12, 12, 12, 12, 12, 12, 12, 12, ],

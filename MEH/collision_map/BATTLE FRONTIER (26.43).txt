@@ -1,25 +1,25 @@
 connections=[
 		],
 events={
-	{
-		exits:[BATTLE FRONTIER (26.4),BATTLE FRONTIER (26.4),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:10,b2:0,sprite:39},
-			{is_trainer:0,b1:9,b2:0,sprite:39},
-			{is_trainer:0,b1:9,b2:0,sprite:39},
-			{is_trainer:0,b1:2,b2:0,sprite:52},
-			{is_trainer:0,b1:9,b2:0,sprite:39},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'BATTLE FRONTIER (26.4)','x':1,'y':7},{'name':'BATTLE FRONTIER (26.4)','x':2,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'39','x':8,'y':4},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'39','x':10,'y':4},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'39','x':10,'y':3},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'52','x':4,'y':6},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'39','x':10,'y':5},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 12, ],

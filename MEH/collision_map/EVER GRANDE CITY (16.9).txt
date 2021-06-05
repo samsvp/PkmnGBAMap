@@ -1,20 +1,20 @@
 connections=[
 		],
 events={
-	{
-		exits:[EVER GRANDE CITY (16.10),EVER GRANDE CITY (16.0),EVER GRANDE CITY (16.10),EVER GRANDE CITY (16.10),		]},
-	{
-		NPCs:[
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'EVER GRANDE CITY (16.10)','x':5,'y':12},{'name':'EVER GRANDE CITY (16.0)','x':5,'y':2},{'name':'EVER GRANDE CITY (16.10)','x':4,'y':12},{'name':'EVER GRANDE CITY (16.10)','x':6,'y':12},		],
+	
+		'NPCs':[
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, ],

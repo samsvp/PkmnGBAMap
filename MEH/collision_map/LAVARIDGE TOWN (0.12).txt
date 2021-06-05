@@ -1,39 +1,39 @@
 connections=[
-			{right:ROUTE 112 (0.27)},
+			{'right':'ROUTE 112 (0.27)'},
 		],
 events={
-	{
-		exits:[LAVARIDGE TOWN (4.0),LAVARIDGE TOWN (4.1),LAVARIDGE TOWN (4.4),LAVARIDGE TOWN (4.5),LAVARIDGE TOWN (4.3),LAVARIDGE TOWN (4.5),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:22},
-			{is_trainer:0,b1:8,b2:0,sprite:21},
-			{is_trainer:0,b1:8,b2:0,sprite:29},
-			{is_trainer:0,b1:3,b2:0,sprite:6},
-			{is_trainer:0,b1:18,b2:0,sprite:139},
-			{is_trainer:0,b1:17,b2:0,sprite:139},
-			{is_trainer:0,b1:9,b2:0,sprite:243},
-			{is_trainer:0,b1:8,b2:0,sprite:240},
-			{is_trainer:0,b1:8,b2:0,sprite:22},
-		]},
-	{
-		signs:[
-			{x:14,y:16},
-			{x:7,y:15},
-			{x:17,y:5},
-			{x:13,y:8},
-			{x:10,y:6},
-			{x:16,y:5},
-			{x:11,y:6},
-			{x:4,y:5},
-		]},
-	{
-		triggers:[
-			{x:6,y:3,flag:0,scriptPointer:2008826},
-		]},
+	
+		'exits':[{'name':'LAVARIDGE TOWN (4.0)','x':12,'y':15},{'name':'LAVARIDGE TOWN (4.1)','x':5,'y':15},{'name':'LAVARIDGE TOWN (4.4)','x':15,'y':5},{'name':'LAVARIDGE TOWN (4.5)','x':9,'y':6},{'name':'LAVARIDGE TOWN (4.3)','x':16,'y':15},{'name':'LAVARIDGE TOWN (4.5)','x':9,'y':2},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'22','x':8,'y':7},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'21','x':5,'y':1},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'29','x':5,'y':8},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'6','x':10,'y':13},
+			{'is_trainer':0,'b1':18,'b2':0,'sprite':'139','x':4,'y':4},
+			{'is_trainer':0,'b1':17,'b2':0,'sprite':'139','x':5,'y':4},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'243','x':6,'y':16},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'240','x':12,'y':15},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'22','x':4,'y':7},
+		],
+	
+		'signs':[
+			{'x':14,'y':16},
+			{'x':7,'y':15},
+			{'x':17,'y':5},
+			{'x':13,'y':8},
+			{'x':10,'y':6},
+			{'x':16,'y':5},
+			{'x':11,'y':6},
+			{'x':4,'y':5},
+		],
+	
+		'triggers':[
+			{'x':6,'y':3,'flag':0,'scriptPointer':2008826},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 13, ],
 	[1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 12, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, ],

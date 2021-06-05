@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[ABANDONED SHIP (24.66),ABANDONED SHIP (24.66),ABANDONED SHIP (24.66),ABANDONED SHIP (24.66),ABANDONED SHIP (24.66),ABANDONED SHIP (24.66),		]},
-	{
-		NPCs:[
-		]},
-	{
-		signs:[
-			{x:3,y:8},
-			{x:6,y:8},
-			{x:3,y:4},
-			{x:9,y:4},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'ABANDONED SHIP (24.66)','x':3,'y':8},{'name':'ABANDONED SHIP (24.66)','x':6,'y':8},{'name':'ABANDONED SHIP (24.66)','x':9,'y':8},{'name':'ABANDONED SHIP (24.66)','x':3,'y':3},{'name':'ABANDONED SHIP (24.66)','x':6,'y':3},{'name':'ABANDONED SHIP (24.66)','x':9,'y':3},		],
+	
+		'NPCs':[
+		],
+	
+		'signs':[
+			{'x':3,'y':8},
+			{'x':6,'y':8},
+			{'x':3,'y':4},
+			{'x':9,'y':4},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

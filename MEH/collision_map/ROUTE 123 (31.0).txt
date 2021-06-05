@@ -1,22 +1,22 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 123 (0.38),ROUTE 123 (0.38),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:21},
-			{is_trainer:0,b1:8,b2:0,sprite:30},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'ROUTE 123 (0.38)','x':3,'y':7},{'name':'ROUTE 123 (0.38)','x':4,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'21','x':4,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'30','x':7,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

@@ -1,27 +1,27 @@
 connections=[
 		],
 events={
-	{
-		exits:[BATTLE FRONTIER (26.22),BATTLE FRONTIER (26.22),BATTLE FRONTIER (26.24),BATTLE FRONTIER (26.24),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:7,b2:0,sprite:21},
-			{is_trainer:0,b1:2,b2:0,sprite:214},
-			{is_trainer:0,b1:14,b2:0,sprite:225},
-			{is_trainer:0,b1:1,b2:0,sprite:209},
-			{is_trainer:0,b1:14,b2:0,sprite:208},
-			{is_trainer:0,b1:1,b2:0,sprite:210},
-			{is_trainer:0,b1:2,b2:0,sprite:211},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'BATTLE FRONTIER (26.22)','x':8,'y':13},{'name':'BATTLE FRONTIER (26.22)','x':9,'y':13},{'name':'BATTLE FRONTIER (26.24)','x':6,'y':3},{'name':'BATTLE FRONTIER (26.24)','x':10,'y':3},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'21','x':8,'y':12},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'214','x':3,'y':5},
+			{'is_trainer':0,'b1':14,'b2':0,'sprite':'225','x':12,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'209','x':15,'y':5},
+			{'is_trainer':0,'b1':14,'b2':0,'sprite':'208','x':4,'y':9},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'210','x':13,'y':9},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'211','x':3,'y':10},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 12, ],
 	[13, 13, 13, 13, 12, 13, 13, 13, 13, 13, 13, 13, 12, 13, 13, 13, 13, ],
 	[13, 13, 13, 13, 12, 13, 12, 13, 13, 13, 12, 13, 12, 13, 13, 13, 13, ],

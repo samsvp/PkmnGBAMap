@@ -1,33 +1,33 @@
 connections=[
-			{left:SAFARI ZONE (26.1)},
-			{down:SAFARI ZONE (26.13)},
+			{'left':'SAFARI ZONE (26.1)'},
+			{'down':'SAFARI ZONE (26.13)'},
 		],
 events={
-	{
-		exits:[		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:13},
-			{is_trainer:0,b1:1,b2:0,sprite:14},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:16},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-		]},
-	{
-		signs:[
-			{x:31,y:35},
-			{x:21,y:5},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'13','x':8,'y':20},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'14','x':30,'y':22},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':11,'y':11},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'16','x':13,'y':35},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':8,'y':13},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':9,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':8,'y':10},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':12,'y':8},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':8,'y':17},
+		],
+	
+		'signs':[
+			{'x':31,'y':35},
+			{'x':21,'y':5},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[12, 1, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 1, 1, 1, 12, 12, 1, 12, 12, 12, 1, 1, 12, 12, 12, 12, ],
 	[12, 1, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 12, 1, 12, 1, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, ],
 	[12, 1, 12, 12, 12, 12, 12, 12, 12, 1, 12, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 12, ],

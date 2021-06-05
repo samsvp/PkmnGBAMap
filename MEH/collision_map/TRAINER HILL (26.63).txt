@@ -1,20 +1,20 @@
 connections=[
 		],
 events={
-	{
-		exits:[TRAINER HILL (26.62),TRAINER HILL (26.64),		]},
-	{
-		NPCs:[
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'TRAINER HILL (26.62)','x':2,'y':1},{'name':'TRAINER HILL (26.64)','x':12,'y':1},		],
+	
+		'NPCs':[
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, ],
 	[12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, ],

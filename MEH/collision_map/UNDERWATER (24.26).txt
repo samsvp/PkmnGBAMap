@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[UNDERWATER (0.53),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:76,b2:0,sprite:100},
-			{is_trainer:0,b1:76,b2:0,sprite:100},
-			{is_trainer:0,b1:76,b2:0,sprite:100},
-			{is_trainer:0,b1:76,b2:0,sprite:100},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'UNDERWATER (0.53)','x':6,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':76,'b2':0,'sprite':'100','x':5,'y':4},
+			{'is_trainer':0,'b1':76,'b2':0,'sprite':'100','x':6,'y':4},
+			{'is_trainer':0,'b1':76,'b2':0,'sprite':'100','x':7,'y':4},
+			{'is_trainer':0,'b1':76,'b2':0,'sprite':'100','x':8,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

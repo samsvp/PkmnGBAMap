@@ -1,23 +1,23 @@
 connections=[
 		],
 events={
-	{
-		exits:[MIRAGE TOWER (24.96),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:199},
-			{is_trainer:0,b1:8,b2:0,sprite:199},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MIRAGE TOWER (24.96)','x':1,'y':4},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'199','x':5,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'199','x':7,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':6,'y':7},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, ],
 	[1, 12, 1, 1, 16, 16, 16, 16, 16, 1, 12, 12, 1, ],

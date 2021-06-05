@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[LAVARIDGE TOWN (4.5), (25.60), (25.25),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:223},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'LAVARIDGE TOWN (4.5)','x':1,'y':6},{'name':' (25.60)','x':5,'y':1},{'name':' (25.25)','x':9,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'85','x':6,'y':2},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'85','x':2,'y':2},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'85','x':10,'y':2},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'223','x':1,'y':2},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 13, 1, 1, 1, 13, 1, 1, 1, 1, ],
 	[0, 0, 0, 1, 0, 12, 0, 0, 1, 12, 0, 0, 1, 12, ],

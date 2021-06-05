@@ -1,25 +1,25 @@
 connections=[
 		],
 events={
-	{
-		exits:[SAFARI ZONE (26.3),SAFARI ZONE (26.3),ROUTE 121 (0.36),ROUTE 121 (0.36),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:9,b2:0,sprite:32},
-			{is_trainer:0,b1:8,b2:0,sprite:31},
-			{is_trainer:0,b1:8,b2:0,sprite:31},
-		]},
-	{
-		signs:[
-			{x:15,y:1},
-		]},
-	{
-		triggers:[
-			{x:8,y:4,flag:16385,scriptPointer:2276376},
-		]},
+	
+		'exits':[{'name':'SAFARI ZONE (26.3)','x':2,'y':5},{'name':'SAFARI ZONE (26.3)','x':3,'y':5},{'name':'ROUTE 121 (0.36)','x':14,'y':13},{'name':'ROUTE 121 (0.36)','x':15,'y':13},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'32','x':17,'y':9},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'31','x':10,'y':2},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'31','x':8,'y':2},
+		],
+	
+		'signs':[
+			{'x':15,'y':1},
+		],
+	
+		'triggers':[
+			{'x':8,'y':4,'flag':16385,'scriptPointer':2276376},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 1, 12, 12, 12, 12, 1, 12, 12, 12, 12, 12, 12, ],

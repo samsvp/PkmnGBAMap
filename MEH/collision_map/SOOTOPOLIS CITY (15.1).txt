@@ -1,30 +1,30 @@
 connections=[
 		],
 events={
-	{
-		exits:[SOOTOPOLIS CITY (15.0),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:10,b2:0,sprite:47},
-			{is_trainer:1,b1:9,b2:0,sprite:45},
-			{is_trainer:1,b1:9,b2:0,sprite:20},
-			{is_trainer:1,b1:7,b2:0,sprite:45},
-			{is_trainer:1,b1:8,b2:0,sprite:45},
-			{is_trainer:1,b1:10,b2:0,sprite:18},
-			{is_trainer:1,b1:10,b2:0,sprite:47},
-			{is_trainer:1,b1:8,b2:0,sprite:45},
-			{is_trainer:1,b1:10,b2:0,sprite:20},
-			{is_trainer:1,b1:9,b2:0,sprite:18},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'SOOTOPOLIS CITY (15.0)','x':11,'y':22},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'47','x':7,'y':17},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'45','x':9,'y':19},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'20','x':12,'y':7},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'45','x':11,'y':9},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'45','x':5,'y':6},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'18','x':7,'y':8},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'47','x':4,'y':8},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'45','x':9,'y':7},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'20','x':6,'y':13},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'18','x':10,'y':13},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

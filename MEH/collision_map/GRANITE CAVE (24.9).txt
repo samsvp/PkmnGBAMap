@@ -1,31 +1,31 @@
 connections=[
 		],
 events={
-	{
-		exits:[GRANITE CAVE (24.8),GRANITE CAVE (24.8),GRANITE CAVE (24.8),GRANITE CAVE (24.8),GRANITE CAVE (24.8),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-		]},
-	{
-		signs:[
-			{x:28,y:6},
-			{x:15,y:11},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'GRANITE CAVE (24.8)','x':29,'y':13},{'name':'GRANITE CAVE (24.8)','x':28,'y':21},{'name':'GRANITE CAVE (24.8)','x':8,'y':5},{'name':'GRANITE CAVE (24.8)','x':12,'y':3},{'name':'GRANITE CAVE (24.8)','x':29,'y':2},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':4,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':29,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':5,'y':14},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':3,'y':14},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':2,'y':16},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':7,'y':12},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':4,'y':22},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':6,'y':22},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':3,'y':21},
+		],
+	
+		'signs':[
+			{'x':28,'y':6},
+			{'x':15,'y':11},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 12, 12, 12, 12, 12, 12, 12, 1, 12, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 1, 1, 12, 12, 12, 1, ],
 	[1, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 1, 1, 12, 12, 12, 1, ],

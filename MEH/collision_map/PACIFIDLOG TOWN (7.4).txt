@@ -1,22 +1,22 @@
 connections=[
 		],
 events={
-	{
-		exits:[PACIFIDLOG TOWN (0.15),PACIFIDLOG TOWN (0.15),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:18,b2:0,sprite:10},
-			{is_trainer:0,b1:10,b2:0,sprite:33},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'PACIFIDLOG TOWN (0.15)','x':4,'y':8},{'name':'PACIFIDLOG TOWN (0.15)','x':5,'y':8},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':18,'b2':0,'sprite':'10','x':3,'y':5},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'33','x':4,'y':2},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 13, 12, 12, 12, 12, ],

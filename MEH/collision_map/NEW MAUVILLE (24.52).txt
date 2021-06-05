@@ -1,21 +1,21 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 110 (0.25),NEW MAUVILLE (24.53),		]},
-	{
-		NPCs:[
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:4,y:2,flag:16570,scriptPointer:2323199},
-		]},
+	
+		'exits':[{'name':'ROUTE 110 (0.25)','x':4,'y':6},{'name':'NEW MAUVILLE (24.53)','x':4,'y':1},		],
+	
+		'NPCs':[
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':4,'y':2,'flag':16570,'scriptPointer':2323199},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 12, 1, 1, 1, 1, ],
 	[1, 1, 12, 12, 12, 12, 12, 1, 1, ],

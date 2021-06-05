@@ -1,26 +1,26 @@
 connections=[
 		],
 events={
-	{
-		exits:[FARAWAY ISLAND (26.57),FARAWAY ISLAND (26.57),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:7,b2:0,sprite:49},
-			{is_trainer:0,b1:10,b2:0,sprite:140},
-		]},
-	{
-		signs:[
-			{x:3,y:32},
-		]},
-	{
-		triggers:[
-			{x:9,y:18,flag:0,scriptPointer:2522264},
-			{x:10,y:20,flag:0,scriptPointer:2522269},
-			{x:22,y:9,flag:0,scriptPointer:2522264},
-		]},
+	
+		'exits':[{'name':'FARAWAY ISLAND (26.57)','x':22,'y':7},{'name':'FARAWAY ISLAND (26.57)','x':23,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'49','x':13,'y':39},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'140','x':13,'y':41},
+		],
+	
+		'signs':[
+			{'x':3,'y':32},
+		],
+	
+		'triggers':[
+			{'x':9,'y':18,'flag':0,'scriptPointer':2522264},
+			{'x':10,'y':20,'flag':0,'scriptPointer':2522269},
+			{'x':22,'y':9,'flag':0,'scriptPointer':2522264},
+		],
 
 },
-[
+partial_map=[
 	[4, 5, 5, 1, 1, 1, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 5, 5, 5, 5, 4, ],
 	[4, 5, 5, 1, 1, 1, 13, 13, 13, 12, 0, 0, 13, 13, 0, 0, 0, 12, 0, 12, 13, 13, 13, 13, 13, 13, 13, 13, 13, 5, 5, 5, 5, 4, ],
 	[4, 5, 5, 1, 1, 1, 13, 13, 13, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 12, 13, 13, 13, 13, 13, 13, 13, 13, 5, 5, 5, 5, 4, ],

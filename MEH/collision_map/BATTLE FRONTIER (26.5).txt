@@ -1,34 +1,34 @@
 connections=[
 		],
 events={
-	{
-		exits:[BATTLE FRONTIER (26.14),BATTLE FRONTIER (26.14),BATTLE FRONTIER (26.8),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:65},
-			{is_trainer:0,b1:2,b2:0,sprite:34},
-			{is_trainer:0,b1:2,b2:0,sprite:7},
-			{is_trainer:0,b1:10,b2:0,sprite:68},
-			{is_trainer:0,b1:8,b2:0,sprite:240},
-			{is_trainer:0,b1:8,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:85},
-			{is_trainer:0,b1:8,b2:0,sprite:85},
-		]},
-	{
-		signs:[
-			{x:4,y:5},
-			{x:8,y:5},
-			{x:12,y:5},
-			{x:16,y:5},
-			{x:2,y:1},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'BATTLE FRONTIER (26.14)','x':12,'y':9},{'name':'BATTLE FRONTIER (26.14)','x':13,'y':9},{'name':'BATTLE FRONTIER (26.8)','x':6,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'85','x':6,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'65','x':23,'y':5},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'34','x':17,'y':8},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'7','x':15,'y':9},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'68','x':11,'y':9},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'240','x':1,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'85','x':10,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'85','x':14,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'85','x':18,'y':5},
+		],
+	
+		'signs':[
+			{'x':4,'y':5},
+			{'x':8,'y':5},
+			{'x':12,'y':5},
+			{'x':16,'y':5},
+			{'x':2,'y':1},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 12, 12, 12, ],

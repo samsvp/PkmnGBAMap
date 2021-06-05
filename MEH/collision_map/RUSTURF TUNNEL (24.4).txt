@@ -1,35 +1,35 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 116 (0.31),VERDANTURF TOWN (0.14),ROUTE 116 (0.31),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:10,b2:0,sprite:44},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:10,b2:0,sprite:21},
-			{is_trainer:0,b1:9,b2:0,sprite:117},
-			{is_trainer:0,b1:9,b2:0,sprite:211},
-			{is_trainer:0,b1:8,b2:0,sprite:86},
-			{is_trainer:1,b1:9,b2:0,sprite:55},
-			{is_trainer:0,b1:9,b2:0,sprite:20},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:23,y:4,flag:0,scriptPointer:2281585},
-			{x:9,y:4,flag:16538,scriptPointer:2281603},
-			{x:9,y:5,flag:16538,scriptPointer:2281603},
-			{x:25,y:4,flag:0,scriptPointer:2281591},
-			{x:25,y:5,flag:0,scriptPointer:2281597},
-		]},
+	
+		'exits':[{'name':'ROUTE 116 (0.31)','x':4,'y':10},{'name':'VERDANTURF TOWN (0.14)','x':29,'y':16},{'name':'ROUTE 116 (0.31)','x':18,'y':20},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'44','x':23,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':24,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':3,'y':1},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':30,'y':2},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'21','x':5,'y':4},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'117','x':14,'y':5},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'211','x':14,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'86','x':24,'y':4},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'55','x':32,'y':13},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'20','x':25,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':23,'y':4,'flag':0,'scriptPointer':2281585},
+			{'x':9,'y':4,'flag':16538,'scriptPointer':2281603},
+			{'x':9,'y':5,'flag':16538,'scriptPointer':2281603},
+			{'x':25,'y':4,'flag':0,'scriptPointer':2281591},
+			{'x':25,'y':5,'flag':0,'scriptPointer':2281597},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, ],

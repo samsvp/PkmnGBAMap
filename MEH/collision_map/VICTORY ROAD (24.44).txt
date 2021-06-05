@@ -1,41 +1,41 @@
 connections=[
 		],
 events={
-	{
-		exits:[VICTORY ROAD (24.45),VICTORY ROAD (24.45),VICTORY ROAD (24.43),VICTORY ROAD (24.45),VICTORY ROAD (24.43),VICTORY ROAD (24.43),VICTORY ROAD (24.45),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:1,b1:9,b2:0,sprite:33},
-			{is_trainer:1,b1:7,b2:0,sprite:34},
-			{is_trainer:1,b1:9,b2:0,sprite:34},
-			{is_trainer:0,b1:1,b2:0,sprite:86},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:1,b1:8,b2:0,sprite:33},
-			{is_trainer:1,b1:16,b2:0,sprite:34},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'VICTORY ROAD (24.45)','x':30,'y':25},{'name':'VICTORY ROAD (24.45)','x':17,'y':16},{'name':'VICTORY ROAD (24.43)','x':42,'y':25},{'name':'VICTORY ROAD (24.45)','x':42,'y':2},{'name':'VICTORY ROAD (24.43)','x':8,'y':3},{'name':'VICTORY ROAD (24.43)','x':20,'y':21},{'name':'VICTORY ROAD (24.45)','x':5,'y':26},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':20,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':21,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':4,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':9,'y':10},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':20,'y':26},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':21,'y':25},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':35,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':19,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':20,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':18,'y':12},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':20,'y':25},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':21,'y':26},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':34,'y':4},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'33','x':37,'y':12},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'34','x':26,'y':16},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'34','x':5,'y':21},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'86','x':34,'y':3},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':42,'y':8},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':32,'y':3},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'33','x':14,'y':16},
+			{'is_trainer':1,'b1':16,'b2':0,'sprite':'34','x':14,'y':20},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 16, 16, 1, 16, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 16, 16, 1, 16, ],

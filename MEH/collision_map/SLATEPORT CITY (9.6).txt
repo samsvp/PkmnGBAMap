@@ -1,29 +1,29 @@
 connections=[
 		],
 events={
-	{
-		exits:[SLATEPORT CITY (0.1),SLATEPORT CITY (0.1),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:19},
-			{is_trainer:0,b1:3,b2:0,sprite:6},
-			{is_trainer:0,b1:7,b2:0,sprite:68},
-			{is_trainer:0,b1:1,b2:0,sprite:26},
-			{is_trainer:0,b1:8,b2:0,sprite:48},
-			{is_trainer:0,b1:1,b2:0,sprite:208},
-			{is_trainer:0,b1:1,b2:0,sprite:203},
-			{is_trainer:0,b1:1,b2:0,sprite:210},
-			{is_trainer:0,b1:9,b2:0,sprite:65},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'SLATEPORT CITY (0.1)','x':6,'y':10},{'name':'SLATEPORT CITY (0.1)','x':7,'y':10},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'19','x':11,'y':4},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'6','x':1,'y':5},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'68','x':11,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'26','x':6,'y':2},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'48','x':6,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'208','x':3,'y':9},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'203','x':8,'y':3},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'210','x':10,'y':8},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'65','x':11,'y':8},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, ],

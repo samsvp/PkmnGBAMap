@@ -1,36 +1,36 @@
 connections=[
-			{up:ROUTE 103 (0.18)},
-			{down:ROUTE 101 (0.16)},
-			{left:ROUTE 102 (0.17)},
+			{'up':'ROUTE 103 (0.18)'},
+			{'down':'ROUTE 101 (0.16)'},
+			{'left':'ROUTE 102 (0.17)'},
 		],
 events={
-	{
-		exits:[OLDALE TOWN (2.0),OLDALE TOWN (2.1),OLDALE TOWN (2.2),OLDALE TOWN (2.4),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:9,b2:0,sprite:14},
-			{is_trainer:0,b1:8,b2:0,sprite:83},
-			{is_trainer:0,b1:10,b2:0,sprite:39},
-			{is_trainer:0,b1:7,b2:0,sprite:240},
-		]},
-	{
-		signs:[
-			{x:11,y:9},
-			{x:7,y:16},
-			{x:15,y:6},
-			{x:8,y:16},
-			{x:16,y:6},
-		]},
-	{
-		triggers:[
-			{x:0,y:10,flag:16465,scriptPointer:2003007},
-			{x:8,y:19,flag:16583,scriptPointer:2003078},
-			{x:9,y:19,flag:16583,scriptPointer:2003110},
-			{x:10,y:19,flag:16583,scriptPointer:2003142},
-		]},
+	
+		'exits':[{'name':'OLDALE TOWN (2.0)','x':5,'y':7},{'name':'OLDALE TOWN (2.1)','x':15,'y':16},{'name':'OLDALE TOWN (2.2)','x':6,'y':16},{'name':'OLDALE TOWN (2.4)','x':14,'y':6},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'14','x':16,'y':11},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'83','x':13,'y':7},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'39','x':8,'y':9},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'240','x':11,'y':19},
+		],
+	
+		'signs':[
+			{'x':11,'y':9},
+			{'x':7,'y':16},
+			{'x':15,'y':6},
+			{'x':8,'y':16},
+			{'x':16,'y':6},
+		],
+	
+		'triggers':[
+			{'x':0,'y':10,'flag':16465,'scriptPointer':2003007},
+			{'x':8,'y':19,'flag':16583,'scriptPointer':2003078},
+			{'x':9,'y':19,'flag':16583,'scriptPointer':2003110},
+			{'x':10,'y':19,'flag':16583,'scriptPointer':2003142},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, ],

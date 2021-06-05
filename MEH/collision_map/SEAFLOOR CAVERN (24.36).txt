@@ -1,28 +1,28 @@
 connections=[
 		],
 events={
-	{
-		exits:[SEAFLOOR CAVERN (24.35),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:197},
-			{is_trainer:0,b1:10,b2:0,sprite:195},
-			{is_trainer:0,b1:10,b2:0,sprite:196},
-			{is_trainer:0,b1:10,b2:0,sprite:119},
-			{is_trainer:0,b1:10,b2:0,sprite:120},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:8,b2:0,sprite:205},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:17,y:42,flag:16546,scriptPointer:2313673},
-		]},
+	
+		'exits':[{'name':'SEAFLOOR CAVERN (24.35)','x':5,'y':4},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'197','x':17,'y':38},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'195','x':9,'y':42},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'196','x':9,'y':42},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'119','x':8,'y':41},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'120','x':8,'y':42},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':14,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'205','x':17,'y':38},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':17,'y':42,'flag':16546,'scriptPointer':2313673},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

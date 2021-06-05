@@ -1,21 +1,21 @@
 connections=[
 		],
 events={
-	{
-		exits:[		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:7,b2:0,sprite:46},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'46','x':2,'y':6},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[13, 13, 13, 13, 13, ],
 	[1, 1, 0, 1, 1, ],
 	[0, 0, 0, 0, 0, ],

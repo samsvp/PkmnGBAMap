@@ -1,55 +1,55 @@
 connections=[
-			{left:BATTLE FRONTIER (26.4)},
+			{'left':'BATTLE FRONTIER (26.4)'},
 		],
 events={
-	{
-		exits:[BATTLE FRONTIER (26.5),BATTLE FRONTIER (26.28),BATTLE FRONTIER (26.22),BATTLE FRONTIER (26.25),BATTLE FRONTIER (26.40),BATTLE FRONTIER (26.41),BATTLE FRONTIER (26.42),BATTLE FRONTIER (26.47),BATTLE FRONTIER (26.48),BATTLE FRONTIER (26.44),BATTLE FRONTIER (26.51),BATTLE FRONTIER (26.52),BATTLE FRONTIER (26.53),ARTISAN CAVE (24.100),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:27,b2:0,sprite:5},
-			{is_trainer:0,b1:2,b2:0,sprite:33},
-			{is_trainer:0,b1:8,b2:0,sprite:55},
-			{is_trainer:0,b1:2,b2:0,sprite:40},
-			{is_trainer:0,b1:7,b2:0,sprite:44},
-			{is_trainer:0,b1:9,b2:0,sprite:27},
-			{is_trainer:0,b1:1,b2:0,sprite:22},
-			{is_trainer:0,b1:28,b2:0,sprite:51},
-			{is_trainer:0,b1:1,b2:0,sprite:15},
-			{is_trainer:0,b1:26,b2:0,sprite:57},
-			{is_trainer:0,b1:1,b2:0,sprite:6},
-			{is_trainer:0,b1:10,b2:0,sprite:19},
-			{is_trainer:0,b1:1,b2:0,sprite:208},
-			{is_trainer:0,b1:8,b2:0,sprite:228},
-			{is_trainer:0,b1:1,b2:0,sprite:39},
-			{is_trainer:0,b1:2,b2:0,sprite:14},
-			{is_trainer:0,b1:46,b2:0,sprite:37},
-			{is_trainer:0,b1:1,b2:0,sprite:33},
-			{is_trainer:0,b1:10,b2:0,sprite:34},
-			{is_trainer:0,b1:2,b2:0,sprite:34},
-			{is_trainer:0,b1:7,b2:0,sprite:44},
-			{is_trainer:0,b1:9,b2:0,sprite:39},
-			{is_trainer:0,b1:7,b2:0,sprite:26},
-			{is_trainer:0,b1:17,b2:0,sprite:30},
-			{is_trainer:0,b1:7,b2:0,sprite:48},
-			{is_trainer:0,b1:7,b2:0,sprite:31},
-		]},
-	{
-		signs:[
-			{x:13,y:17},
-			{x:43,y:56},
-			{x:36,y:34},
-			{x:62,y:15},
-			{x:7,y:29},
-			{x:32,y:13},
-			{x:4,y:51},
-			{x:5,y:51},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'BATTLE FRONTIER (26.5)','x':16,'y':14},{'name':'BATTLE FRONTIER (26.28)','x':39,'y':29},{'name':'BATTLE FRONTIER (26.22)','x':45,'y':56},{'name':'BATTLE FRONTIER (26.25)','x':58,'y':14},{'name':'BATTLE FRONTIER (26.40)','x':35,'y':12},{'name':'BATTLE FRONTIER (26.41)','x':4,'y':44},{'name':'BATTLE FRONTIER (26.42)','x':10,'y':28},{'name':'BATTLE FRONTIER (26.47)','x':22,'y':51},{'name':'BATTLE FRONTIER (26.48)','x':5,'y':8},{'name':'BATTLE FRONTIER (26.44)','x':65,'y':31},{'name':'BATTLE FRONTIER (26.51)','x':14,'y':51},{'name':'BATTLE FRONTIER (26.52)','x':21,'y':45},{'name':'BATTLE FRONTIER (26.53)','x':3,'y':51},{'name':'ARTISAN CAVE (24.100)','x':28,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':27,'b2':0,'sprite':'5','x':20,'y':17},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'33','x':42,'y':15},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'55','x':53,'y':6},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'40','x':54,'y':16},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'44','x':37,'y':32},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'27','x':41,'y':56},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'22','x':8,'y':46},
+			{'is_trainer':0,'b1':28,'b2':0,'sprite':'51','x':34,'y':41},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'15','x':45,'y':47},
+			{'is_trainer':0,'b1':26,'b2':0,'sprite':'57','x':59,'y':35},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'6','x':18,'y':40},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'19','x':17,'y':40},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'208','x':40,'y':56},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'228','x':54,'y':62},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'39','x':42,'y':34},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'14','x':51,'y':53},
+			{'is_trainer':0,'b1':46,'b2':0,'sprite':'37','x':62,'y':18},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'33','x':11,'y':21},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'34','x':10,'y':21},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'34','x':16,'y':30},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'44','x':33,'y':14},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'39','x':54,'y':31},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'26','x':54,'y':32},
+			{'is_trainer':0,'b1':17,'b2':0,'sprite':'30','x':58,'y':55},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'48','x':48,'y':41},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'31','x':29,'y':14},
+		],
+	
+		'signs':[
+			{'x':13,'y':17},
+			{'x':43,'y':56},
+			{'x':36,'y':34},
+			{'x':62,'y':15},
+			{'x':7,'y':29},
+			{'x':32,'y':13},
+			{'x':4,'y':51},
+			{'x':5,'y':51},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, ],
 	[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, ],
 	[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, ],

@@ -1,23 +1,23 @@
 connections=[
 		],
 events={
-	{
-		exits:[SOUTHERN ISLAND (26.9),SOUTHERN ISLAND (26.9),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:7,b2:0,sprite:240},
-			{is_trainer:0,b1:8,b2:0,sprite:241},
-		]},
-	{
-		signs:[
-			{x:13,y:11},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'SOUTHERN ISLAND (26.9)','x':13,'y':18},{'name':'SOUTHERN ISLAND (26.9)','x':14,'y':18},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'240','x':13,'y':12},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'241','x':13,'y':2},
+		],
+	
+		'signs':[
+			{'x':13,'y':11},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

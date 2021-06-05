@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[METEOR FALLS (24.0),METEOR FALLS (24.2),METEOR FALLS (24.2),METEOR FALLS (24.2),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:8,b2:0,sprite:33},
-			{is_trainer:1,b1:8,b2:0,sprite:21},
-			{is_trainer:1,b1:8,b2:0,sprite:22},
-		]},
-	{
-		signs:[
-			{x:9,y:58},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'METEOR FALLS (24.0)','x':10,'y':29},{'name':'METEOR FALLS (24.2)','x':4,'y':14},{'name':'METEOR FALLS (24.2)','x':7,'y':20},{'name':'METEOR FALLS (24.2)','x':21,'y':23},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'33','x':13,'y':2},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'21','x':6,'y':12},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'22','x':7,'y':12},
+		],
+	
+		'signs':[
+			{'x':9,'y':58},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

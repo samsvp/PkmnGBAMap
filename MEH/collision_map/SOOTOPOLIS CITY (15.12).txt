@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[SOOTOPOLIS CITY (0.7),SOOTOPOLIS CITY (0.7),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:10,b2:0,sprite:50},
-			{is_trainer:0,b1:9,b2:0,sprite:55},
-		]},
-	{
-		signs:[
-			{x:5,y:1},
-			{x:2,y:1},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'SOOTOPOLIS CITY (0.7)','x':3,'y':6},{'name':'SOOTOPOLIS CITY (0.7)','x':4,'y':6},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'50','x':2,'y':4},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'55','x':5,'y':4},
+		],
+	
+		'signs':[
+			{'x':5,'y':1},
+			{'x':2,'y':1},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 13, 13, ],

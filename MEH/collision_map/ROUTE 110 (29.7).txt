@@ -1,48 +1,48 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 110 (29.0),ROUTE 110 (29.0),ROUTE 110 (29.1),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:9,b2:0,sprite:19},
-			{is_trainer:0,b1:10,b2:0,sprite:19},
-			{is_trainer:0,b1:9,b2:0,sprite:19},
-			{is_trainer:0,b1:9,b2:0,sprite:19},
-			{is_trainer:0,b1:10,b2:0,sprite:19},
-		]},
-	{
-		signs:[
-			{x:11,y:21},
-		]},
-	{
-		triggers:[
-			{x:5,y:17,flag:16385,scriptPointer:2542551},
-			{x:4,y:17,flag:16385,scriptPointer:2542563},
-			{x:3,y:17,flag:16385,scriptPointer:2542575},
-			{x:2,y:17,flag:16385,scriptPointer:2542587},
-			{x:1,y:7,flag:16386,scriptPointer:2542611},
-			{x:2,y:7,flag:16386,scriptPointer:2542623},
-			{x:13,y:10,flag:16387,scriptPointer:2542683},
-			{x:12,y:10,flag:16387,scriptPointer:2542695},
-			{x:11,y:10,flag:16387,scriptPointer:2542707},
-			{x:13,y:19,flag:16388,scriptPointer:2542743},
-			{x:12,y:19,flag:16388,scriptPointer:2542755},
-			{x:11,y:4,flag:16389,scriptPointer:2542815},
-			{x:1,y:17,flag:16385,scriptPointer:2542599},
-			{x:3,y:7,flag:16386,scriptPointer:2542635},
-			{x:4,y:7,flag:16386,scriptPointer:2542647},
-			{x:5,y:7,flag:16386,scriptPointer:2542659},
-			{x:6,y:7,flag:16386,scriptPointer:2542671},
-			{x:10,y:10,flag:16387,scriptPointer:2542719},
-			{x:9,y:10,flag:16387,scriptPointer:2542731},
-			{x:11,y:19,flag:16388,scriptPointer:2542767},
-			{x:10,y:19,flag:16388,scriptPointer:2542779},
-			{x:9,y:19,flag:16388,scriptPointer:2542791},
-		]},
+	
+		'exits':[{'name':'ROUTE 110 (29.0)','x':0,'y':21},{'name':'ROUTE 110 (29.0)','x':1,'y':21},{'name':'ROUTE 110 (29.1)','x':13,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'19','x':6,'y':17},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'19','x':0,'y':7},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'19','x':14,'y':10},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'19','x':14,'y':19},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'19','x':10,'y':4},
+		],
+	
+		'signs':[
+			{'x':11,'y':21},
+		],
+	
+		'triggers':[
+			{'x':5,'y':17,'flag':16385,'scriptPointer':2542551},
+			{'x':4,'y':17,'flag':16385,'scriptPointer':2542563},
+			{'x':3,'y':17,'flag':16385,'scriptPointer':2542575},
+			{'x':2,'y':17,'flag':16385,'scriptPointer':2542587},
+			{'x':1,'y':7,'flag':16386,'scriptPointer':2542611},
+			{'x':2,'y':7,'flag':16386,'scriptPointer':2542623},
+			{'x':13,'y':10,'flag':16387,'scriptPointer':2542683},
+			{'x':12,'y':10,'flag':16387,'scriptPointer':2542695},
+			{'x':11,'y':10,'flag':16387,'scriptPointer':2542707},
+			{'x':13,'y':19,'flag':16388,'scriptPointer':2542743},
+			{'x':12,'y':19,'flag':16388,'scriptPointer':2542755},
+			{'x':11,'y':4,'flag':16389,'scriptPointer':2542815},
+			{'x':1,'y':17,'flag':16385,'scriptPointer':2542599},
+			{'x':3,'y':7,'flag':16386,'scriptPointer':2542635},
+			{'x':4,'y':7,'flag':16386,'scriptPointer':2542647},
+			{'x':5,'y':7,'flag':16386,'scriptPointer':2542659},
+			{'x':6,'y':7,'flag':16386,'scriptPointer':2542671},
+			{'x':10,'y':10,'flag':16387,'scriptPointer':2542719},
+			{'x':9,'y':10,'flag':16387,'scriptPointer':2542731},
+			{'x':11,'y':19,'flag':16388,'scriptPointer':2542767},
+			{'x':10,'y':19,'flag':16388,'scriptPointer':2542779},
+			{'x':9,'y':19,'flag':16388,'scriptPointer':2542791},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 1, ],
 	[1, 1, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, ],

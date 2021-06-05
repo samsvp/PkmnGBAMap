@@ -1,32 +1,32 @@
 connections=[
 		],
 events={
-	{
-		exits:[SEAFLOOR CAVERN (24.36),SEAFLOOR CAVERN (24.30),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-			{is_trainer:0,b1:1,b2:0,sprite:87},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'SEAFLOOR CAVERN (24.36)','x':5,'y':2},{'name':'SEAFLOOR CAVERN (24.30)','x':5,'y':12},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':4,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':5,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':6,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':3,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':7,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':4,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':5,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':6,'y':5},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':3,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':4,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':6,'y':4},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'87','x':7,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 13, 1, 1, ],
 	[1, 1, 0, 1, 1, 12, 1, 1, 0, 1, 1, ],

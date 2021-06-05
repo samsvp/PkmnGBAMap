@@ -1,22 +1,22 @@
 connections=[
 		],
 events={
-	{
-		exits:[MT. PYRE (24.19),MT. PYRE (24.17),MT. PYRE (24.19),MT. PYRE (24.19),MT. PYRE (24.17),MT. PYRE (24.17),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:24,b2:0,sprite:40},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MT. PYRE (24.19)','x':10,'y':1},{'name':'MT. PYRE (24.17)','x':2,'y':5},{'name':'MT. PYRE (24.19)','x':12,'y':10},{'name':'MT. PYRE (24.19)','x':12,'y':12},{'name':'MT. PYRE (24.17)','x':9,'y':10},{'name':'MT. PYRE (24.17)','x':2,'y':12},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':24,'b2':0,'sprite':'40','x':11,'y':7},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':3,'y':11},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 1, ],

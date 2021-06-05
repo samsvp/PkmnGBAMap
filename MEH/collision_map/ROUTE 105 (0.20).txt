@@ -1,32 +1,32 @@
 connections=[
-			{up:ROUTE 104 (0.19)},
-			{down:ROUTE 106 (0.21)},
+			{'up':'ROUTE 104 (0.19)'},
+			{'down':'ROUTE 106 (0.21)'},
 		],
 events={
-	{
-		exits:[ISLAND CAVE (24.67),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:10,b2:0,sprite:42},
-			{is_trainer:1,b1:27,b2:0,sprite:42},
-			{is_trainer:1,b1:25,b2:0,sprite:43},
-			{is_trainer:1,b1:24,b2:0,sprite:43},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:1,b1:26,b2:0,sprite:55},
-			{is_trainer:1,b1:8,b2:0,sprite:66},
-			{is_trainer:1,b1:7,b2:0,sprite:55},
-		]},
-	{
-		signs:[
-			{x:15,y:68},
-			{x:5,y:56},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'ISLAND CAVE (24.67)','x':9,'y':20},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'42','x':19,'y':60},
+			{'is_trainer':1,'b1':27,'b2':0,'sprite':'42','x':27,'y':36},
+			{'is_trainer':1,'b1':25,'b2':0,'sprite':'43','x':8,'y':45},
+			{'is_trainer':1,'b1':24,'b2':0,'sprite':'43','x':19,'y':9},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':8,'y':73},
+			{'is_trainer':1,'b1':26,'b2':0,'sprite':'55','x':17,'y':48},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'66','x':4,'y':54},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'55','x':4,'y':58},
+		],
+	
+		'signs':[
+			{'x':15,'y':68},
+			{'x':5,'y':56},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[4, 4, 4, 4, 4, 4, 4, 1, 1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 1, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[4, 4, 4, 4, 4, 4, 4, 1, 1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 1, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[4, 4, 4, 4, 4, 4, 4, 1, 1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

@@ -1,23 +1,23 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 114 (20.0),ROUTE 114 (20.0),DESERT UNDERPASS (24.98),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:7,b2:0,sprite:39},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:5,y:4,flag:16588,scriptPointer:2273126},
-			{x:6,y:4,flag:16588,scriptPointer:2273126},
-		]},
+	
+		'exits':[{'name':'ROUTE 114 (20.0)','x':6,'y':25},{'name':'ROUTE 114 (20.0)','x':7,'y':25},{'name':'DESERT UNDERPASS (24.98)','x':6,'y':2},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'39','x':5,'y':3},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':5,'y':4,'flag':16588,'scriptPointer':2273126},
+			{'x':6,'y':4,'flag':16588,'scriptPointer':2273126},
+		],
 
 },
-[
+partial_map=[
 	[12, 0, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, ],
 	[0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 12, 0, 0, ],
 	[0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, ],

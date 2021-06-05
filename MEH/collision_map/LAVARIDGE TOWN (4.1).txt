@@ -1,28 +1,28 @@
 connections=[
 		],
 events={
-	{
-		exits:[LAVARIDGE TOWN (0.12),LAVARIDGE TOWN (0.12),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),LAVARIDGE TOWN (4.2),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:128},
-			{is_trainer:3,b1:8,b2:0,sprite:66},
-			{is_trainer:3,b1:8,b2:0,sprite:33},
-			{is_trainer:3,b1:8,b2:0,sprite:66},
-			{is_trainer:3,b1:8,b2:0,sprite:14},
-			{is_trainer:0,b1:10,b2:0,sprite:23},
-		]},
-	{
-		signs:[
-			{x:10,y:15},
-			{x:16,y:15},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'LAVARIDGE TOWN (0.12)','x':13,'y':18},{'name':'LAVARIDGE TOWN (0.12)','x':14,'y':18},{'name':'LAVARIDGE TOWN (4.2)','x':10,'y':18},{'name':'LAVARIDGE TOWN (4.2)','x':8,'y':9},{'name':'LAVARIDGE TOWN (4.2)','x':4,'y':18},{'name':'LAVARIDGE TOWN (4.2)','x':5,'y':14},{'name':'LAVARIDGE TOWN (4.2)','x':0,'y':17},{'name':'LAVARIDGE TOWN (4.2)','x':5,'y':9},{'name':'LAVARIDGE TOWN (4.2)','x':2,'y':15},{'name':'LAVARIDGE TOWN (4.2)','x':3,'y':14},{'name':'LAVARIDGE TOWN (4.2)','x':1,'y':14},{'name':'LAVARIDGE TOWN (4.2)','x':0,'y':10},{'name':'LAVARIDGE TOWN (4.2)','x':3,'y':10},{'name':'LAVARIDGE TOWN (4.2)','x':0,'y':6},{'name':'LAVARIDGE TOWN (4.2)','x':3,'y':6},{'name':'LAVARIDGE TOWN (4.2)','x':5,'y':6},{'name':'LAVARIDGE TOWN (4.2)','x':2,'y':3},{'name':'LAVARIDGE TOWN (4.2)','x':5,'y':2},{'name':'LAVARIDGE TOWN (4.2)','x':7,'y':2},{'name':'LAVARIDGE TOWN (4.2)','x':8,'y':6},{'name':'LAVARIDGE TOWN (4.2)','x':10,'y':6},{'name':'LAVARIDGE TOWN (4.2)','x':4,'y':16},{'name':'LAVARIDGE TOWN (4.2)','x':12,'y':3},{'name':'LAVARIDGE TOWN (4.2)','x':14,'y':6},{'name':'LAVARIDGE TOWN (4.2)','x':13,'y':17},{'name':'LAVARIDGE TOWN (4.2)','x':12,'y':12},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'128','x':13,'y':9},
+			{'is_trainer':3,'b1':8,'b2':0,'sprite':'66','x':3,'y':14},
+			{'is_trainer':3,'b1':8,'b2':0,'sprite':'33','x':2,'y':15},
+			{'is_trainer':3,'b1':8,'b2':0,'sprite':'66','x':3,'y':10},
+			{'is_trainer':3,'b1':8,'b2':0,'sprite':'14','x':5,'y':2},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'23','x':12,'y':16},
+		],
+	
+		'signs':[
+			{'x':10,'y':15},
+			{'x':16,'y':15},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 0, 1, 0, 12, 12, 12, 1, 12, 12, 12, 12, 1, ],

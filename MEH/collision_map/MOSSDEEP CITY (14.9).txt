@@ -1,31 +1,31 @@
 connections=[
 		],
 events={
-	{
-		exits:[MOSSDEEP CITY (0.6),MOSSDEEP CITY (0.6),MOSSDEEP CITY (14.10),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:7,b2:0,sprite:46},
-			{is_trainer:0,b1:7,b2:0,sprite:46},
-			{is_trainer:0,b1:9,b2:0,sprite:49},
-			{is_trainer:0,b1:7,b2:0,sprite:29},
-			{is_trainer:0,b1:3,b2:0,sprite:26},
-			{is_trainer:1,b1:9,b2:0,sprite:120},
-			{is_trainer:1,b1:9,b2:0,sprite:119},
-			{is_trainer:1,b1:8,b2:0,sprite:119},
-			{is_trainer:1,b1:8,b2:0,sprite:119},
-			{is_trainer:0,b1:76,b2:0,sprite:5},
-			{is_trainer:0,b1:8,b2:0,sprite:134},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'MOSSDEEP CITY (0.6)','x':7,'y':9},{'name':'MOSSDEEP CITY (0.6)','x':8,'y':9},{'name':'MOSSDEEP CITY (14.10)','x':13,'y':1},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'46','x':7,'y':2},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'46','x':2,'y':2},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'49','x':6,'y':6},
+			{'is_trainer':0,'b1':7,'b2':0,'sprite':'29','x':10,'y':2},
+			{'is_trainer':0,'b1':3,'b2':0,'sprite':'26','x':14,'y':7},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'120','x':12,'y':9},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'119','x':11,'y':6},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'119','x':10,'y':2},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'119','x':13,'y':2},
+			{'is_trainer':0,'b1':76,'b2':0,'sprite':'5','x':2,'y':5},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'134','x':1,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

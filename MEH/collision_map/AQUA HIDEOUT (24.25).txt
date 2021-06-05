@@ -1,28 +1,28 @@
 connections=[
 		],
 events={
-	{
-		exits:[AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.24),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:9,b2:0,sprite:117},
-			{is_trainer:1,b1:45,b2:0,sprite:117},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:9,b2:0,sprite:141},
-			{is_trainer:1,b1:10,b2:0,sprite:118},
-			{is_trainer:1,b1:9,b2:0,sprite:117},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:28,y:17,flag:16385,scriptPointer:2309605},
-			{x:28,y:16,flag:16385,scriptPointer:2309605},
-		]},
+	
+		'exits':[{'name':'AQUA HIDEOUT (24.24)','x':18,'y':1},{'name':'AQUA HIDEOUT (24.24)','x':12,'y':1},{'name':'AQUA HIDEOUT (24.24)','x':3,'y':3},{'name':'AQUA HIDEOUT (24.25)','x':31,'y':8},{'name':'AQUA HIDEOUT (24.25)','x':8,'y':8},{'name':'AQUA HIDEOUT (24.25)','x':5,'y':8},{'name':'AQUA HIDEOUT (24.25)','x':18,'y':13},{'name':'AQUA HIDEOUT (24.25)','x':12,'y':13},{'name':'AQUA HIDEOUT (24.25)','x':31,'y':17},{'name':'AQUA HIDEOUT (24.24)','x':32,'y':20},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'117','x':23,'y':19},
+			{'is_trainer':1,'b1':45,'b2':0,'sprite':'117','x':23,'y':10},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':3,'y':13},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'141','x':19,'y':20},
+			{'is_trainer':1,'b1':10,'b2':0,'sprite':'118','x':7,'y':5},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'117','x':13,'y':5},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':28,'y':17,'flag':16385,'scriptPointer':2309605},
+			{'x':28,'y':16,'flag':16385,'scriptPointer':2309605},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 1, 12, 12, 12, 12, 12, 1, 1, 1, 1, 12, 12, 1, 1, 1, 1, 12, 12, 12, 1, ],

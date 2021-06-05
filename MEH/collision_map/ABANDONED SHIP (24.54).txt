@@ -1,20 +1,20 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 108 (0.23),ROUTE 108 (0.23),ABANDONED SHIP (24.55),ABANDONED SHIP (24.55),ABANDONED SHIP (24.63),		]},
-	{
-		NPCs:[
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'ROUTE 108 (0.23)','x':13,'y':15},{'name':'ROUTE 108 (0.23)','x':14,'y':15},{'name':'ABANDONED SHIP (24.55)','x':13,'y':9},{'name':'ABANDONED SHIP (24.55)','x':8,'y':9},{'name':'ABANDONED SHIP (24.63)','x':12,'y':5},		],
+	
+		'NPCs':[
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],

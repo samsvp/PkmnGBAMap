@@ -1,23 +1,23 @@
 connections=[
 		],
 events={
-	{
-		exits:[ROUTE 110 (0.25),ROUTE 110 (0.25),ROUTE 110 (0.25),ROUTE 110 (0.25),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:83},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-			{x:7,y:4,flag:16385,scriptPointer:2550736},
-			{x:5,y:4,flag:16385,scriptPointer:2550803},
-		]},
+	
+		'exits':[{'name':'ROUTE 110 (0.25)','x':1,'y':5},{'name':'ROUTE 110 (0.25)','x':2,'y':5},{'name':'ROUTE 110 (0.25)','x':12,'y':5},{'name':'ROUTE 110 (0.25)','x':13,'y':5},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'83','x':7,'y':2},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+			{'x':7,'y':4,'flag':16385,'scriptPointer':2550736},
+			{'x':5,'y':4,'flag':16385,'scriptPointer':2550803},
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 13, 12, 12, 12, 12, 13, 12, 12, 12, 12, ],

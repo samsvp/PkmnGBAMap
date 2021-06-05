@@ -1,23 +1,23 @@
 connections=[
 		],
 events={
-	{
-		exits:[DEWFORD TOWN (0.11),DEWFORD TOWN (0.11),DEWFORD TOWN (3.2),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:58},
-			{is_trainer:0,b1:10,b2:0,sprite:18},
-			{is_trainer:0,b1:5,b2:0,sprite:33},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'DEWFORD TOWN (0.11)','x':7,'y':8},{'name':'DEWFORD TOWN (0.11)','x':6,'y':8},{'name':'DEWFORD TOWN (3.2)','x':1,'y':6},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'58','x':7,'y':2},
+			{'is_trainer':0,'b1':10,'b2':0,'sprite':'18','x':10,'y':6},
+			{'is_trainer':0,'b1':5,'b2':0,'sprite':'33','x':5,'y':5},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 1, 1, 1, 12, 1, 1, 12, 12, 12, 12, ],

@@ -1,29 +1,29 @@
 connections=[
 		],
 events={
-	{
-		exits:[AQUA HIDEOUT (24.23),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.25),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),AQUA HIDEOUT (24.24),		]},
-	{
-		NPCs:[
-			{is_trainer:1,b1:8,b2:0,sprite:117},
-			{is_trainer:1,b1:9,b2:0,sprite:117},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:1,b1:23,b2:0,sprite:118},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:0,b1:1,b2:0,sprite:59},
-			{is_trainer:1,b1:7,b2:0,sprite:118},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'AQUA HIDEOUT (24.23)','x':29,'y':1},{'name':'AQUA HIDEOUT (24.25)','x':18,'y':1},{'name':'AQUA HIDEOUT (24.25)','x':12,'y':1},{'name':'AQUA HIDEOUT (24.25)','x':3,'y':3},{'name':'AQUA HIDEOUT (24.24)','x':31,'y':4},{'name':'AQUA HIDEOUT (24.24)','x':27,'y':4},{'name':'AQUA HIDEOUT (24.24)','x':20,'y':4},{'name':'AQUA HIDEOUT (24.24)','x':27,'y':12},{'name':'AQUA HIDEOUT (24.24)','x':3,'y':15},{'name':'AQUA HIDEOUT (24.24)','x':3,'y':20},{'name':'AQUA HIDEOUT (24.24)','x':32,'y':19},{'name':'AQUA HIDEOUT (24.24)','x':23,'y':10},{'name':'AQUA HIDEOUT (24.24)','x':45,'y':3},{'name':'AQUA HIDEOUT (24.24)','x':42,'y':5},{'name':'AQUA HIDEOUT (24.24)','x':45,'y':5},{'name':'AQUA HIDEOUT (24.24)','x':48,'y':5},{'name':'AQUA HIDEOUT (24.24)','x':42,'y':9},{'name':'AQUA HIDEOUT (24.24)','x':45,'y':9},{'name':'AQUA HIDEOUT (24.24)','x':48,'y':9},{'name':'AQUA HIDEOUT (24.24)','x':42,'y':13},{'name':'AQUA HIDEOUT (24.24)','x':45,'y':13},{'name':'AQUA HIDEOUT (24.24)','x':48,'y':13},{'name':'AQUA HIDEOUT (24.24)','x':42,'y':17},{'name':'AQUA HIDEOUT (24.24)','x':45,'y':17},{'name':'AQUA HIDEOUT (24.24)','x':48,'y':17},		],
+	
+		'NPCs':[
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'117','x':28,'y':16},
+			{'is_trainer':1,'b1':9,'b2':0,'sprite':'117','x':6,'y':6},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':29,'y':12},
+			{'is_trainer':1,'b1':23,'b2':0,'sprite':'118','x':20,'y':18},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':15,'y':9},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':16,'y':9},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':15,'y':10},
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'59','x':16,'y':10},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'118','x':28,'y':21},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 1, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 1, 1, 1, 1, 1, ],

@@ -1,22 +1,22 @@
 connections=[
 		],
 events={
-	{
-		exits:[ABANDONED SHIP (24.54),ABANDONED SHIP (24.54),ABANDONED SHIP (24.54),ABANDONED SHIP (24.54),ABANDONED SHIP (24.56),ABANDONED SHIP (24.56),ABANDONED SHIP (24.56),ABANDONED SHIP (24.56),ABANDONED SHIP (24.62),ABANDONED SHIP (24.57),ABANDONED SHIP (24.57),ABANDONED SHIP (24.62),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:2,b2:0,sprite:35},
-			{is_trainer:1,b1:45,b2:0,sprite:54},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'ABANDONED SHIP (24.54)','x':9,'y':11},{'name':'ABANDONED SHIP (24.54)','x':8,'y':11},{'name':'ABANDONED SHIP (24.54)','x':0,'y':11},{'name':'ABANDONED SHIP (24.54)','x':1,'y':11},{'name':'ABANDONED SHIP (24.56)','x':11,'y':9},{'name':'ABANDONED SHIP (24.56)','x':14,'y':9},{'name':'ABANDONED SHIP (24.56)','x':11,'y':3},{'name':'ABANDONED SHIP (24.56)','x':14,'y':3},{'name':'ABANDONED SHIP (24.62)','x':3,'y':9},{'name':'ABANDONED SHIP (24.57)','x':16,'y':2},{'name':'ABANDONED SHIP (24.57)','x':5,'y':2},{'name':'ABANDONED SHIP (24.62)','x':3,'y':3},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'35','x':17,'y':7},
+			{'is_trainer':1,'b1':45,'b2':0,'sprite':'54','x':5,'y':10},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 13, 1, 13, 12, 12, 12, 12, 12, 12, 12, 12, 13, ],

@@ -1,21 +1,21 @@
 connections=[
 		],
 events={
-	{
-		exits:[FALLARBOR TOWN (0.13),FALLARBOR TOWN (0.13),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:8,b2:0,sprite:17},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'FALLARBOR TOWN (0.13)','x':3,'y':7},{'name':'FALLARBOR TOWN (0.13)','x':4,'y':7},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'17','x':4,'y':4},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, ],

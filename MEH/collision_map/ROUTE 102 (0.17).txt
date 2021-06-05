@@ -1,33 +1,33 @@
 connections=[
-			{left:PETALBURG CITY (0.0)},
-			{right:OLDALE TOWN (0.10)},
+			{'left':'PETALBURG CITY (0.0)'},
+			{'right':'OLDALE TOWN (0.10)'},
 		],
 events={
-	{
-		exits:[		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:11},
-			{is_trainer:1,b1:8,b2:0,sprite:35},
-			{is_trainer:1,b1:7,b2:0,sprite:36},
-			{is_trainer:1,b1:18,b2:0,sprite:47},
-			{is_trainer:0,b1:2,b2:0,sprite:7},
-			{is_trainer:0,b1:8,b2:0,sprite:59},
-			{is_trainer:0,b1:12,b2:0,sprite:60},
-			{is_trainer:0,b1:12,b2:0,sprite:60},
-			{is_trainer:1,b1:8,b2:0,sprite:35},
-		]},
-	{
-		signs:[
-			{x:17,y:2},
-			{x:40,y:9},
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'11','x':18,'y':11},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'35','x':33,'y':14},
+			{'is_trainer':1,'b1':7,'b2':0,'sprite':'36','x':25,'y':15},
+			{'is_trainer':1,'b1':18,'b2':0,'sprite':'47','x':8,'y':7},
+			{'is_trainer':0,'b1':2,'b2':0,'sprite':'7','x':37,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'59','x':11,'y':15},
+			{'is_trainer':0,'b1':12,'b2':0,'sprite':'60','x':24,'y':2},
+			{'is_trainer':0,'b1':12,'b2':0,'sprite':'60','x':25,'y':2},
+			{'is_trainer':1,'b1':8,'b2':0,'sprite':'35','x':19,'y':4},
+		],
+	
+		'signs':[
+			{'x':17,'y':2},
+			{'x':40,'y':9},
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 12, 12, 12, 12, 12, 12, 13, 13, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 4, 4, 4, 4, 1, 1, 1, 1, 1, 1, ],

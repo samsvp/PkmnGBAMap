@@ -1,24 +1,24 @@
 connections=[
 		],
 events={
-	{
-		exits:[FORTREE CITY (0.4),FORTREE CITY (0.4),		]},
-	{
-		NPCs:[
-			{is_trainer:0,b1:1,b2:0,sprite:25},
-			{is_trainer:0,b1:9,b2:0,sprite:14},
-			{is_trainer:0,b1:8,b2:0,sprite:83},
-			{is_trainer:0,b1:8,b2:0,sprite:83},
-		]},
-	{
-		signs:[
-		]},
-	{
-		triggers:[
-		]},
+	
+		'exits':[{'name':'FORTREE CITY (0.4)','x':3,'y':5},{'name':'FORTREE CITY (0.4)','x':4,'y':5},		],
+	
+		'NPCs':[
+			{'is_trainer':0,'b1':1,'b2':0,'sprite':'25','x':6,'y':5},
+			{'is_trainer':0,'b1':9,'b2':0,'sprite':'14','x':0,'y':4},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'83','x':1,'y':2},
+			{'is_trainer':0,'b1':8,'b2':0,'sprite':'83','x':6,'y':2},
+		],
+	
+		'signs':[
+		],
+	
+		'triggers':[
+		],
 
 },
-[
+partial_map=[
 	[1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 1, 1, 1, 1, 1, 1, 1, ],
 	[1, 12, 12, 1, 1, 12, 12, 1, ],
